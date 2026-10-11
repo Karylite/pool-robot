@@ -84,7 +84,7 @@
 
         /* Hero首屏 */
         .hero {
-            background: linear-gradient(rgba(0,35,70,0.72), rgba(0,35,70,0.72)), url("https://placehold.co/1920x750/005599/ffffff?text=Smart+Pool+Robot+Hero");
+            background: linear-gradient(rgba(0,35,70,0.72), rgba(0,35,70,0.72)), url("https://picsum.photos/id/1067/1920/750");
             background-size: cover;
             background-position: center;
             color: var(--white);
@@ -248,7 +248,7 @@
         }
         .contact-form {
             max-width:620px;
-            margin:0 auto;
+            margin:0 auto 3rem;
         }
         .form-row {
             margin-bottom:1.1rem;
@@ -260,6 +260,11 @@
             border-radius:7px;
             border:none;
             font-size:1rem;
+        }
+        .contact-info-block{
+            max-width:800px;
+            margin:0 auto;
+            line-height:1.8;
         }
 
         /* 页脚 */
@@ -380,11 +385,11 @@
     <div class="container">
         <h2 class="section-title" data-i18n="product_title">Our Product Series</h2>
 
-        <!-- 1 无线智能泳池机器人 -->
+        <!-- 1 无线智能泳池机器人【独立图片】 -->
         <div class="product-block">
             <div class="product-row">
                 <div class="product-img-wrap">
-                    <img src="https://placehold.co/700/0072bb/ffffff?text=Wireless+Pool+Robot" alt="Wireless Intelligent Swimming Pool Robot">
+                    <img src="https://picsum.photos/id/96/700/520" alt="Wireless Intelligent Swimming Pool Robot">
                 </div>
                 <div class="product-text">
                     <h3 data-i18n="prod_wireless_title">Wireless Intelligent Pool Robot</h3>
@@ -409,11 +414,11 @@
             </div>
         </div>
 
-        <!-- 2 有线控制泳池机器人 -->
+        <!-- 2 有线控制泳池机器人【独立图片】 -->
         <div class="product-block">
             <div class="product-row">
                 <div class="product-img-wrap">
-                    <img src="https://placehold.co/700/005588/ffffff?text=Wired+Pool+Robot" alt="Wired‑controlled Intelligent Swimming Pool Robot">
+                    <img src="https://picsum.photos/id/1059/700/520" alt="Wired‑controlled Intelligent Swimming Pool Robot">
                 </div>
                 <div class="product-text">
                     <h3 data-i18n="prod_wired_title">Wired‑controlled Pool Robot</h3>
@@ -437,11 +442,11 @@
             </div>
         </div>
 
-        <!--3 全自动水下吸污机 -->
+        <!--3 全自动水下吸污机【独立图片】 -->
         <div class="product-block">
             <div class="product-row">
                 <div class="product-img-wrap">
-                    <img src="https://placehold.co/700/1070aa/ffffff?text=Underwater+Suction+Cleaner" alt="Full‑automatic Underwater Suction Cleaner">
+                    <img src="https://picsum.photos/id/1060/700/520" alt="Full‑automatic Underwater Suction Cleaner">
                 </div>
                 <div class="product-text">
                     <h3 data-i18n="prod_suction_title">Full‑automatic Underwater Suction Cleaner</h3>
@@ -465,11 +470,11 @@
             </div>
         </div>
 
-        <!--4 水面吸叶收集器 -->
+        <!--4 水面吸叶收集器【独立图片】 -->
         <div class="product-block">
             <div class="product-row">
                 <div class="product-img-wrap">
-                    <img src="https://placehold.co/700/008099/ffffff?text=Surface+Leaf+Collector" alt="Surface Cleaning Leaf Collector">
+                    <img src="https://picsum.photos/id/1061/700/520" alt="Surface Cleaning Leaf Collector">
                 </div>
                 <div class="product-text">
                     <h3 data-i18n="prod_surface_title">Surface Cleaning Leaf Collector</h3>
@@ -495,27 +500,27 @@
     </div>
 </section>
 
-<!-- ========== 项目案例板块 ========== -->
+<!-- ========== 项目案例板块｜每张卡片独立图片 ========== -->
 <section id="cases" class="cases-section">
     <div class="container">
         <h2 class="section-title" data-i18n="cases_title">Project Reference Cases</h2>
         <div class="cases-grid">
             <div class="case-card">
-                <img src="https://placehold.co/600x230/105080/ffffff?text=Hotel+Resort+Pool+Project" alt="Hotel Resort Pool">
+                <img src="https://picsum.photos/id/1039/600/230" alt="Hotel Resort Pool">
                 <div class="case-content">
                     <h3 data-i18n="case1_title">Hotel & Resort Pool</h3>
                     <p data-i18n="case1_desc">Multiple wired pool robots deployed for resort outdoor swimming pools. Reduce manual maintenance cost, keep water crystal‑clear all tourist season.</p>
                 </div>
             </div>
             <div class="case-card">
-                <img src="https://placehold.co/600x230/006699/ffffff?text=Private+Villa+Pool" alt="Private Villa Pool">
+                <img src="https://picsum.photos/id/1048/600/230" alt="Private Villa Pool">
                 <div class="case-content">
                     <h3 data-i18n="case2_title">Luxury Private Villa Pool</h3>
                     <p data-i18n="case2_desc">Wireless robotic cleaner for residential villa pool, auto wall‑climbing, one‑click start, no cable trouble for home‑use scenario.</p>
                 </div>
             </div>
             <div class="case-card">
-                <img src="https://placehold.co/600x230/004477/ffffff?text=Public+Commercial+Pool" alt="Public Commercial Pool">
+                <img src="https://picsum.photos/id/1064/600/230" alt="Public Commercial Pool">
                 <div class="case-content">
                     <h3 data-i18n="case3_title">Public & Community Pool</h3>
                     <p data-i18n="case3_desc">Heavy‑duty wired robot solution for large community public pool. Long‑time stable continuous operation for high‑frequency usage environment.</p>
@@ -560,19 +565,29 @@
             </div>
             <button class="btn" type="submit" data-i18n="form_submit">Send Inquiry</button>
         </form>
+        <div class="contact-info-block">
+            <h3>DongGuan Karylite Technology Co.,Ltd</h3>
+            <p><strong>WhatsApp / Phone:</strong> <a href="https://wa.me/13424161160" style="color:#42b9f5;text-decoration:none">+13424161160</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@karylite.com" style="color:#42b9f5;text-decoration:none">info@karylite.com</a></p>
+            <p><strong>Address:</strong> 2nd Floor of Building 11th,No.6 Hongming Road, SongShanHu Lake Park, DongGuan China</p>
+        </div>
     </div>
 </section>
 
 <footer>
     <div class="container footer-wrap">
         <div>
-            <h3>KARY LITE</h3>
+            <h3>DongGuan Karylite Technology Co.,Ltd</h3>
             <p data-i18n="footer_text">Professional manufacturer of automatic swimming pool cleaning robot. Support OEM & ODM, global wholesale & distribution cooperation welcome.</p>
             <div class="social-links">
                 <a href="https://instagram.com" target="_blank" title="Instagram">INS</a>
                 <a href="https://facebook.com" target="_blank" title="Facebook">FB</a>
                 <a href="https://linkedin.com" target="_blank" title="LinkedIn">LinkedIn</a>
                 <a href="https://youtube.com" target="_blank" title="YouTube">YT</a>
+            </div>
+            <div style="margin-top:1rem;font-size:0.9rem;">
+                <p>WhatsApp / Phone: +13424161160</p>
+                <p>Email: info@karylite.com</p>
             </div>
         </div>
         <div>
@@ -583,7 +598,7 @@
         </div>
         <div>
             <h4 data-i18n="footer_contact">Contact</h4>
-            <p>sales@karylite‑poolrobot.com</p>
+            <p>2nd Floor of Building 11th,No.6 Hongming Road,<br>SongShanHu Lake Park, DongGuan China</p>
         </div>
     </div>
 </footer>
