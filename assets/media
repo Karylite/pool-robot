@@ -1,1 +1,18 @@
-
+│       ├─ banner-bg.jpg
+│       ├─ product-images/
+│       │   ├─ SPR-SHARK.jpg
+│       │   ├─ SPR-SEAL.jpg
+│       │   ├─ SPR-Crab.jpg
+│       │   ├─ SPR200-lite.jpg
+│       │   ├─ L350.jpg
+│       │   ├─ SPR013.jpg
+│       │   └─ PL-01.jpg
+│       ├─ case-images/
+│       │   ├─ case-villa-pool.jpg
+│       │   ├─ case-hotel-pool.jpg
+│       │   └─ case-club-pool.jpg
+│       └─ product-videos/
+│           ├─ SPR-SHARK.mp4
+│           ├─ SPR-SEAL.mp4
+│           ├─ L350.mp4
+│           └─ PL-01.mp4
