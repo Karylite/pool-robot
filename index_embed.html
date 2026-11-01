@@ -1,215 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KARY LITE | Swimming Pool Smart Cleaning Robot</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karylite - Pool Cleaning Robot</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+    :root{--primary:#0088cc;--dark:#222;--light:#f8f9fa;--white:#fff}
+    html{scroll-behavior:smooth}
+    [dir="rtl"]{direction:rtl;text-align:right}
+
+    header{position:sticky;top:0;background:var(--white);box-shadow:0 2px 6px #0002;z-index:999}
+    .nav-wrap{max-width:1200px;margin:0 auto;padding:1rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.4rem;font-weight:bold;color:var(--primary)}
+    nav ul{display:flex;gap:2rem;list-style:none}
+    nav a{text-decoration:none;color:var(--dark);font-weight:500}
+    .lang-select{padding:6px 8px;border:1px solid #ccc;border-radius:4px}
+    .mobile-menu-btn{display:none;border:none;background:none;font-size:1.6rem}
+
+    .banner{height:85vh;background:url("assets/media/banner-bg.jpg") center/cover no-repeat;display:flex;align-items:center;color:white;position:relative}
+    .banner::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.45)}
+    .banner-inner{max-width:1200px;margin:0 auto;padding:0 1rem;position:relative;z-index:2}
+    .banner h1{font-size:3rem;margin-bottom:1rem}
+    .banner p{font-size:1.2rem;max-width:600px}
+
+    section{padding:5rem 1rem}
+    .container{max-width:1200px;margin:0 auto}
+    .sec-title{text-align:center;font-size:2rem;margin-bottom:3rem;color:var(--dark)}
+
+    .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem}
+    .card{background:var(--white);border-radius:10px;overflow:hidden;box-shadow:0 3px 10px #0001}
+    .card img{width:100%;height:220px;object-fit:cover}
+    .card video{width:100%;height:220px;object-fit:cover}
+    .card-body{padding:1rem}
+    .card h3{margin-bottom:0.5rem;color:var(--primary)}
+
+    .case-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}
+    .case-card{border-radius:10px;overflow:hidden;box-shadow:0 3px 10px #0001}
+    .case-card img{width:100%;height:240px;object-fit:cover}
+    .case-card .txt{padding:1rem;background:#fff}
+
+    .contact{background:var(--light)}
+    .contact-info{line-height:2}
+    .contact-info a{color:var(--primary);text-decoration:none}
+
+    /* 右下角悬浮按钮 */
+    .float-contact{position:fixed;right:20px;bottom:20px;display:flex;flex-direction:column;gap:12px;z-index:998}
+    .float-btn{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;color:white;font-size:24px;text-decoration:none;box-shadow:0 3px 10px #0003}
+    .wa{background:#25D366}
+    .mail{background:#0088cc}
+
+    footer{background:var(--dark);color:white;text-align:center;padding:2rem}
+
+    @media(max-width:768px){
+      nav ul{display:none;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:#fff;padding:1rem;gap:1rem}
+      nav ul.open{display:flex}
+      .mobile-menu-btn{display:block}
+      .banner h1{font-size:2rem}
+    }
+  </style>
 </head>
 <body>
-    <!-- ==========右下角悬浮按钮组 WhatsApp + Mail ========== -->
-    <div class="float-contact-group">
-        <!-- WhatsApp悬浮 -->
-        <a href="https://wa.me/8618274938671" class="float-btn float-whatsapp" target="_blank" aria-label="WhatsApp联系">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="#ffffff">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471.145-.57.27-.097.148-.374.42-.463.53-.081.112-.163.163-.296-.03-.134-.193-.575-.673-1.164-1.288-.428-.467-.871-.983-1.172-1.327-.313-.357-.042-.548.145-.704.146-.122.327-.313.49-.47.163-.158.218-.272.313-.449.095-.177.047-.334-.024-.47-.07-.136-.63-1.527-.862-2.09-.228-.558-.46-.484-.63-.494-.163-.01-.351-.01-.54-.01-.188 0-.493.071-.75.35-.257.278-.982.96-.982 2.342 0 1.383 1.007 2.717 1.148 2.894.142.177 1.995 3.04 4.833 4.268.678.297 1.204.474 1.61.607.678.22 1.302.188 1.794.114.547-.083 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-            </svg>
-            <span class="float-tooltip">WhatsApp: +8618274938671</span>
-        </a>
-        <!-- 邮箱悬浮 -->
-        <a href="mailto:sales@karylite-pool.com" class="float-btn float-email" target="_blank" aria-label="发送邮件">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="#ffffff">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-            <span class="float-tooltip">Email: sales@karylite-pool.com</span>
-        </a>
+  <header>
+    <div class="nav-wrap">
+      <div class="logo">Karylite</div>
+      <nav>
+        <button class="mobile-menu-btn" id="menuBtn">☰</button>
+        <ul id="navMenu">
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#products" data-i18n="nav.products">Products</a></li>
+          <li><a href="#cases" data-i18n="nav.cases">Project & Case</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <select class="lang-select" id="langSelect">
+        <option value="en">English</option>
+        <option value="pt">Português</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+      </select>
     </div>
+  </header>
 
-    <!--导航栏-->
-    <header class="header">
-        <div class="container nav-wrap">
-            <div class="logo">KARY LITE</div>
-            <nav class="nav">
-                <a href="#home" data-i18n="nav.home">Home</a>
-                <a href="#product" data-i18n="nav.product">Products</a>
-                <a href="#cases" data-i18n="nav.case">Project & Case</a>
-                <a href="#about" data-i18n="nav.about">About Us</a>
-                <a href="#contact" data-i18n="nav.contact">Contact</a>
-            </nav>
-            <div class="lang-switch">
-                <select id="langSelect">
-                    <option value="en">English</option>
-                    <option value="zh">中文</option>
-                </select>
-            </div>
+  <section class="banner" id="home">
+    <div class="banner-inner">
+      <h1 data-i18n="banner.title">Karylite Pool Cleaning Robot</h1>
+      <p data-i18n="banner.desc">Intelligent automatic pool cleaner robot, efficient cleaning for residential, villa, hotel swimming pools.</p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2 class="sec-title" data-i18n="products.title">Our Products</h2>
+      <div class="product-grid">
+        <div class="card">
+          <img src="assets/media/product-images/SPR-SHARK.jpg" alt="SPR-SHARK">
+          <video controls muted><source src="assets/media/product-videos/SPR-SHARK.mp4"></video>
+          <div class="card-body">
+            <h3>SPR-SHARK</h3>
+            <p data-i18n="p.shark">Smart automatic pool robot, wall climbing, strong suction.</p>
+          </div>
         </div>
-    </header>
-
-    <main>
-        <!--首页横幅-->
-        <section id="home" class="banner">
-            <div class="container banner-inner">
-                <h1 data-i18n="banner.title">Smart Swimming Pool Automatic Cleaning Robot</h1>
-                <p data-i18n="banner.desc">Say goodbye to traditional cleaning methods. Intelligent and efficient cleaning, your personal swimming pool guardian butler.</p>
-                <a href="#product" class="btn" data-i18n="banner.btn">View Products</a>
-            </div>
-        </section>
-
-        <!--产品板块-->
-        <section id="product" class="section product-section">
-            <div class="container">
-                <h2 data-i18n="product.title">Our Products</h2>
-                <div class="product-grid">
-                    <!--无线智能泳池机器人 SPR‑SHARK -->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/SPR‑SHARK.jpg" alt="SPR‑SHARK Wireless Pool Robot">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/SPR‑SHARK.jpg">
-                                <source src="./assets/media/product-videos/SPR‑SHARK.mp4" type="video/mp4">
-                                Your browser not support video.
-                            </video>
-                        </div>
-                        <h3>SPR‑SHARK</h3>
-                        <p data-i18n="product.sharkDesc">Wireless Intelligent Swimming Pool Robot,90° Right‑angle wall climbing,max pool area ≤400㎡,IP68 waterproof.</p>
-                    </div>
-
-                    <!--SPR‑SEAL-->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/SPR‑SEAL.jpg" alt="SPR‑SEAL Pool Robot">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/SPR‑SEAL.jpg">
-                                <source src="./assets/media/product-videos/SPR‑SEAL.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <h3>SPR‑SEAL</h3>
-                        <p data-i18n="product.sealDesc">Curved wall‑climbing wireless robot, compact weight 8.7kg, working time 2‑2.5H.</p>
-                    </div>
-
-                    <!--SPR‑Crab-->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/SPR‑Crab.jpg" alt="SPR‑Crab Pool Robot">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/SPR‑Crab.jpg">
-                                <source src="./assets/media/product-videos/SPR‑Crab.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <h3>SPR‑Crab</h3>
-                        <p data-i18n="product.crabDesc">For pool ≤300㎡,wall‑climbing available,battery 7800mAh.</p>
-                    </div>
-
-                    <!--有线款 L350-->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/L350.jpg" alt="L350 Wired Pool Robot">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/L350.jpg">
-                                <source src="./assets/media/product-videos/L350.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <h3>L350 Wired‑controlled Robot</h3>
-                        <p data-i18n="product.l350Desc">Stable cable design, 90° right‑angle wall‑climbing, filtration precision up to 5μm.</p>
-                    </div>
-
-                    <!--SPR013小型水下吸污机-->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/SPR013.jpg" alt="SPR013 Underwater Suction Cleaner">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/SPR013.jpg">
-                                <source src="./assets/media/product-videos/SPR013.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <h3>SPR013 Underwater Suction Cleaner</h3>
-                        <p data-i18n="product.spr013Desc">For small pool ≤100㎡,compact lightweight, no wall‑climbing function.</p>
-                    </div>
-
-                    <!--PL‑01水面捞叶收集器-->
-                    <div class="product-card">
-                        <div class="product-img">
-                            <img src="./assets/media/product-images/PL‑01.jpg" alt="PL‑01 Surface Leaf Collector">
-                        </div>
-                        <div class="product-video">
-                            <video controls preload="metadata" poster="./assets/media/product-images/PL‑01.jpg">
-                                <source src="./assets/media/product-videos/PL‑01.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <h3>PL‑01 Surface Cleaning Leaf Collector</h3>
-                        <p data-i18n="product.pl01Desc">Water surface floating debris & leaves collection, long 7‑hour working time.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Project & Case 案例区块，锚点#cases不变-->
-        <section id="cases" class="section case-section">
-            <div class="container">
-                <h2 data-i18n="case.title">Project & Case</h2>
-                <div class="case-grid">
-                    <div class="case-card">
-                        <img src="./assets/media/case-images/case-villa-pool.jpg" alt="Villa private swimming pool project">
-                        <h4 data-i18n="case.case1Title">Villa Private Pool</h4>
-                        <p data-i18n="case.case1Desc">Residential villa pool automatic cleaning solution.</p>
-                    </div>
-                    <div class="case-card">
-                        <img src="./assets/media/case-images/case-hotel-pool.jpg" alt="Hotel swimming pool project">
-                        <h4 data-i18n="case.case2Title">Hotel Swimming Pool</h4>
-                        <p data-i18n="case.case2Desc">Commercial hotel public pool maintenance project.</p>
-                    </div>
-                    <div class="case-card">
-                        <img src="./assets/media/case-images/case-club-pool.jpg" alt="Club leisure pool">
-                        <h4 data-i18n="case.case3Title">Club Leisure Pool</h4>
-                        <p data-i18n="case.case3Desc">Leisure club swimming pool cleaning case.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="section about-section">
-            <div class="container">
-                <h2 data-i18n="about.title">About Us</h2>
-                <p data-i18n="about.desc">KARY LITE focus on full‑automatic swimming pool cleaning robot research, development and manufacturing. We provide reliable pool cleaning equipment & after‑sales service for global customers.</p>
-            </div>
-        </section>
-
-        <!--联系板块-->
-        <section id="contact" class="section contact-section">
-            <div class="container">
-                <h2 data-i18n="contact.title">Contact Us</h2>
-                <div class="contact-info">
-                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/8618274938671">+8618274938671</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:sales@karylite-pool.com">sales@karylite-pool.com</a></p>
-                    <p data-i18n="contact.desc">Welcome to inquiry for pool robot wholesale & project cooperation.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--页脚，导航文字 Project & Case -->
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div class="footer-nav">
-                <a href="#home" data-i18n="nav.home">Home</a>
-                <a href="#product" data-i18n="nav.product">Products</a>
-                <a href="#cases" data-i18n="nav.case">Project & Case</a>
-                <a href="#about" data-i18n="nav.about">About Us</a>
-                <a href="#contact" data-i18n="nav.contact">Contact</a>
-            </div>
-            <div class="footer-copy">© 2026 KARY LITE. All rights reserved.</div>
+        <div class="card">
+          <img src="assets/media/product-images/SPR-SEAL.jpg" alt="SPR-SEAL">
+          <video controls muted><source src="assets/media/product-videos/SPR-SEAL.mp4"></video>
+          <div class="card-body">
+            <h3>SPR-SEAL</h3>
+            <p data-i18n="p.seal">Lightweight wireless pool cleaner, easy to carry.</p>
+          </div>
         </div>
-    </footer>
+        <div class="card">
+          <img src="assets/media/product-images/SPR-Crab.jpg" alt="SPR-Crab">
+          <div class="card-body">
+            <h3>SPR-Crab</h3>
+            <p data-i18n="p.crab">Crawler type, adapt to irregular pool shape.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/media/product-images/SPR200-lite.jpg" alt="SPR200-lite">
+          <div class="card-body">
+            <h3>SPR200-lite</h3>
+            <p data-i18n="p.spr200">Cost-effective entry model for family pools.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/media/product-images/L350.jpg" alt="L350">
+          <video controls muted><source src="assets/media/product-videos/L350.mp4"></video>
+          <div class="card-body">
+            <h3>L350</h3>
+            <p data-i18n="p.l350">High-end commercial pool robot, large coverage.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/media/product-images/SPR013.jpg" alt="SPR013">
+          <div class="card-body">
+            <h3>SPR013</h3>
+            <p data-i18n="p.spr013">Corded stable version for long time working.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/media/product-images/PL-01.jpg" alt="PL-01">
+          <video controls muted><source src="assets/media/product-videos/PL-01.mp4"></video>
+          <div class="card-body">
+            <h3>PL-01</h3>
+            <p data-i18n="p.pl01">Ultra thin body, suitable for shallow pools.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="./assets/js/main.js"></script>
-</body>
-</html>
+  <section id="cases">
+    <div class="container">
+      <h2 class="sec-title" data-i18n="cases.title">Project & Case</h2>
+      <div class="case-grid">
+        <div class="case-card">
+          <img src="assets/media/case-images/case-villa-pool.jpg" alt="Villa Pool">
+          <div class="txt">
+            <h3 data-i18n="case.villa">Villa Private Pool</h3>
+            <p data-i18n="case.villaTxt">Luxury villa swimming pool cleaning solution.</p>
+          </div>
+        </div>
+        <div class="case-card">
+          <img src="assets/media/case-images/case-hotel-pool.jpg" alt="Hotel Pool">
+          <div class="txt">
+            <h3 data-i18n="case.hotel">Hotel Swimming Pool</h3>
+            <p data-i18n="case.hotelTxt">Commercial hotel pool maintenance project.</p>
+          </div>
+        </div>
+        <div class="case-card">
+          <img src="assets/media/case-images/case-club-pool.jpg" alt="Club Pool">
+          <div class="txt">
+            <h3 data-i18n="case.club">Club Leisure Pool</h3>
+            <p data-i18n="case.clubTxt">Recreation club pool automatic cleaning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="./assets/js/main.js"></script>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="sec-title" data-i18n="contact.title">Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Company:</strong> DongGuan Karylite Technology Co.,Ltd</p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/8618274938671" target="_blank">+8618274938671</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@karylite.com">info@karylite.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 右下角悬浮按钮 -->
+  <div class="float-contact">
+    <a class="float-btn wa" href="https://wa.me/8618274938671" target="_blank" title="WhatsApp">💬</a>
+    <a class="float-btn mail" href="mailto:info@karylite.com" title="Email">✉</a>
+  </div>
+
+  <footer>
+    <p>©2026 DongGuan Karylite Technology Co.,Ltd. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // 移动端菜单
+    const menuBtn = document.getElementById('menuBtn');
+    const navMenu = document.getElementById('navMenu');
+    menuBtn.onclick = ()=> navMenu.classList.toggle('open');
+
+    // 多语言翻译
+    const translations = {
+      en:{
+        "nav.home":"Home","nav.products":"Products","nav.cases":"Project & Case","nav.contact":"Contact",
+        "banner.title":"Karylite Pool Cleaning Robot",
+        "banner.desc":"Intelligent automatic pool cleaner robot, efficient cleaning for residential, villa, hotel swimming pools.",
+        "products.title":"Our Products",
+        "p.shark":"Smart automatic pool robot, wall climbing, strong suction.",
+        "p.seal":"Lightweight wireless pool cleaner, easy to carry.",
+        "p.crab":"Crawler type, adapt to irregular pool shape.",
+        "p.spr200":"Cost-effective entry model for family pools.",
+        "p.l350":"High-end commercial pool robot, large coverage.",
+        "p.spr013":"Corded stable version for long time working.",
+        "p.pl01":"Ultra thin body, suitable for shallow pools.",
+        "cases.title":"Project & Case",
+        "case.villa":"Villa Private Pool","case.villaTxt":"Luxury villa swimming pool cleaning solution.",
+        "case.hotel":"Hotel Swimming Pool","case.hotelTxt":"Commercial hotel pool maintenance project.",
+        "case.club":"Club Leisure Pool","case.clubTxt":"Recreation club pool automatic cleaning.",
+        "contact.title":"Contact Us"
+      },
+      pt:{
+        "nav.home":"Início","nav.products":"Produtos","nav.cases":"Projetos & Casos","nav.contact":"Contato",
+        "banner.title":"Robô Limpador de Piscina Karylite",
+        "banner.desc":"Robô limpador automático inteligente, limpeza eficiente para piscinas residenciais, villas e hotéis.",
+        "products.title":"Nossos Produtos",
+        "p.shark":"Robô inteligente, escala paredes, forte sucção.",
+        "p.seal":"Limpador sem fio leve, fácil transporte.",
+        "p.crab":"Tipo esteira, adapta-se a piscinas irregulares.",
+        "p.spr200":"Modelo acessível para piscinas familiares.",
+        "p.l350":"Robô comercial premium, ampla cobertura.",
+        "p.spr013":"Modelo com fio estável para uso prolongado.",
+        "p.pl01":"Corpo ultrafino, ideal para piscinas rasas.",
+        "cases.title":"Projetos & Casos",
+        "case.villa":"Piscina de Villa","case.villaTxt":"Solução de limpeza para piscina de villa luxuosa.",
+        "case.hotel":"Piscina de Hotel","case.hotelTxt":"Projeto de manutenção de piscina comercial.",
+        "case.club":"Piscina de Clube","case.clubTxt":"Limpeza automática para piscina de lazer.",
+        "contact.title":"Fale Conosco"
+      },
+      ru:{
+        "nav.home":"Главная","nav.products":"Продукты","nav.cases":"Проекты и кейсы","nav.contact":"Контакты",
+        "banner.title":"Робот для очистки бассейна Karylite",
+        "banner.desc":"Умный автоматический робот, эффективная очистка бассейнов в домах, виллах и отелях.",
+        "products.title":"Наши товары",
+        "p.shark":"Умный робот, подъем по стенам, мощное всасывание.",
+        "p.seal":"Легкий беспроводной очиститель, удобно носить.",
+        "p.crab":"Гусеничный, подходит для неправильных форм бассейна.",
+        "p.spr200":"Бюджетная модель для домашних бассейнов.",
+        "p.l350":"Премиум коммерческий робот, большая зона покрытия.",
+        "p.spr013":"Проводная стабильная модель для долгой работы.",
+        "p.pl01":"Тонкий корпус, подходит для мелких бассейнов.",
+        "cases.title":"Проекты и кейсы",
+        "case.villa":"Бассейн в вилле","case.villaTxt":"Решение для элитного частного бассейна.",
+        "case.hotel":"Бассейн отеля","case.hotelTxt":"Проект обслуживания коммерческого бассейна.",
+        "case.club":"Бассейн клуба","case.clubTxt":"Автоочистка бассейна для отдыха.",
+        "contact.title":"Связаться с нами"
+      },
+      ar:{
+        "nav.home":"الرئيسية","nav.products":"المنتجات","nav.cases":"المشاريع والحالات","nav.contact":"اتصل بنا",
+        "banner.title":"روبوت تنظيف حمامات السباحة Karylite",
+        "banner.desc":"روبوت ذكي أوتوماتيكي لتنظيف حمامات السباحة للمنازل والفلل والفنادق بكفاءة عالية.",
+        "products.title":"منتجاتنا",
+        "p.shark":"روبوت ذكي يتسلق الجدران، شفط قوي.",
+        "p.seal":"منظف لاسلكي خفيف، سهل الحمل.",
+        "p.crab":"نوع الجنازير، يتكيف مع أشكال حمامات غير منتظمة.",
+        "p.spr200":"نموذج اقتصادي مناسب لحمامات المنازل.",
+        "p.l350":"روبوت تجاري فاخر، تغطية واسعة.",
+        "p.spr013":"نموذج سلكي مستقر للعمل لفترات طويلة.",
+        "p.pl01":"جسم نحيف جداً، مناسب للحمامات الضحلة.",
+        "cases.title":"المشاريع والحالات",
+        "case.villa":"حوض سباحة فيلا","case.villaTxt":"حل تنظيف لحوض سباحة فيلا فاخرة.",
+        "case.hotel":"حوض سباحة فندق","case.hotelTxt":"مشروع صيانة أحواض الفنادق التجارية.",
+        "case.club":"حوض سباحة نادي","case.clubTxt":"تنظيف أوتوماتيكي لحوض النادي الترفيهي.",
+        "contact.title":"اتصل بنا"
+      }
+    };
+
+    const langSelect = document.getElementById("langSelect");
+    function setLang(langCode){
+      const t = translations[langCode];
+      document.querySelectorAll("[data-i18n]").forEach(el=>{
+        const k = el.getAttribute("data-i18n");
+        if(t[k]) el.textContent = t[k];
+      })
+      document.documentElement.dir = langCode==="ar" ? "rtl" : "ltr";
+      document.documentElement.lang = langCode;
+    }
+    langSelect.addEventListener("change",e=>setLang(e.target.value));
+    setLang("en");
+  </script>
 </body>
 </html>
