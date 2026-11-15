@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>KARYLITE — Content Console</title>
+<link rel="icon" href="../assets/img/brand/favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- login -->
+<div class="gate" id="gate">
+  <form class="gate__card" id="loginForm">
+    <div class="gate__brand">
+      <img src="../assets/img/brand/logo-mark.png" alt="" height="46">
+      <div><b>KARYLITE</b><span>Content Console</span></div>
+    </div>
+    <label for="pw">Password</label>
+    <input id="pw" type="password" autocomplete="current-password" required autofocus>
+    <button class="btn" type="submit">Enter console</button>
+    <p class="gate__err" id="loginErr"></p>
+    <p class="gate__note">Client-side gate for the static console. Change the hash in <code>admin/admin.js</code> before going live.</p>
+  </form>
+</div>
+
+<div class="app" id="app" hidden>
+  <aside class="side">
+    <div class="side__brand">
+      <img src="../assets/img/brand/logo-mark-white.png" alt="" height="34">
+      <div><b>KARYLITE</b><span>Content Console</span></div>
+    </div>
+    <nav class="side__nav" id="sideNav">
+      <button data-section="dashboard">Dashboard</button>
+      <button data-section="brand">Brand &amp; contact</button>
+      <button data-section="home">Home page</button>
+      <button data-section="products">Products</button>
+      <button data-section="tech">Technology</button>
+      <button data-section="service">Service &amp; OEM</button>
+      <button data-section="media">Media library</button>
+      <button data-section="preview">Preview</button>
+      <button data-section="publish">Publish</button>
+    </nav>
+    <div class="side__foot">
+      <a href="../en/" target="_blank" rel="noopener">Open live site ↗</a>
+      <button id="logout">Sign out</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <div>
+        <h1 id="sectionTitle">Dashboard</h1>
+        <p id="sectionSub">Manage every text, image and specification.</p>
+      </div>
+      <div class="top__actions">
+        <label class="langpick">Language
+          <select id="langPick"></select>
+        </label>
+        <span class="state" id="saveState">Saved</span>
+      </div>
+    </header>
+    <div class="content" id="content"></div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,510 @@
+{
+ "brand": {
+  "name": "KARYLITE",
+  "descriptor": "Pool Robotics",
+  "legalName": "KARYLITE Pool Robotics",
+  "tagline": "Crystal water, without the work.",
+  "email": "info@karylite.com",
+  "phone": "+86 182 7493 8671",
+  "whatsapp": "8618274938671",
+  "addressLine": "Building 6, Lighting Industry Park, Guzhen, Zhongshan, Guangdong, China",
+  "founded": "2009",
+  "socials": {
+   "instagram": "https://www.instagram.com/karylite",
+   "facebook": "https://www.facebook.com/karylite",
+   "linkedin": "https://www.linkedin.com/company/karylite",
+   "youtube": "https://www.youtube.com/@karylite"
+  },
+  "domain": "https://karylite.github.io/pool-robotics"
+ },
+ "languages": [
+  {
+   "code": "en",
+   "label": "English",
+   "native": "English",
+   "dir": "ltr"
+  },
+  {
+   "code": "es",
+   "label": "Spanish",
+   "native": "Español",
+   "dir": "ltr"
+  },
+  {
+   "code": "fr",
+   "label": "French",
+   "native": "Français",
+   "dir": "ltr"
+  },
+  {
+   "code": "de",
+   "label": "German",
+   "native": "Deutsch",
+   "dir": "ltr"
+  },
+  {
+   "code": "it",
+   "label": "Italian",
+   "native": "Italiano",
+   "dir": "ltr"
+  },
+  {
+   "code": "pt",
+   "label": "Portuguese",
+   "native": "Português",
+   "dir": "ltr"
+  },
+  {
+   "code": "ru",
+   "label": "Russian",
+   "native": "Русский",
+   "dir": "ltr"
+  },
+  {
+   "code": "ar",
+   "label": "Arabic",
+   "native": "العربية",
+   "dir": "rtl"
+  },
+  {
+   "code": "ja",
+   "label": "Japanese",
+   "native": "日本語",
+   "dir": "ltr"
+  }
+ ],
+ "defaultLanguage": "en",
+ "stats": [
+  {
+   "value": "1,200 m²",
+   "labelKey": "statCoverage"
+  },
+  {
+   "value": "5 µm",
+   "labelKey": "statFiltration"
+  },
+  {
+   "value": "90°",
+   "labelKey": "statClimb"
+  },
+  {
+   "value": "IP68",
+   "labelKey": "statWaterproof"
+  }
+ ],
+ "categories": [
+  {
+   "id": "wireless",
+   "image": "assets/img/products/spr-shark-studio.jpg",
+   "products": [
+    "spr-shark",
+    "spr-seal",
+    "spr-crab",
+    "spr10",
+    "spr200"
+   ]
+  },
+  {
+   "id": "corded",
+   "image": "assets/img/products/l-series-closeup.jpg",
+   "products": [
+    "spr09",
+    "l-series"
+   ]
+  },
+  {
+   "id": "suction",
+   "image": "assets/img/products/c36-studio.jpg",
+   "products": [
+    "c36-series",
+    "spr013"
+   ]
+  },
+  {
+   "id": "surface",
+   "image": "assets/img/products/pl01-pool.jpg",
+   "products": [
+    "pl-series"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "spr-shark",
+   "name": "SPR-SHARK",
+   "category": "wireless",
+   "badge": "flagship",
+   "image": "assets/img/products/spr-shark-studio.jpg",
+   "images": [
+    "assets/img/products/spr-shark-studio.jpg",
+    "assets/img/products/spr-shark-steps.jpg",
+    "assets/img/products/spr-shark-poolside.jpg",
+    "assets/img/products/spr-shark-underwater.jpg"
+   ],
+   "video": "assets/video/wall-climb.mp4",
+   "poster": "assets/img/renders/track-closeup.jpg",
+   "specs": {
+    "area": "≤ 400 m²",
+    "wall": "90° right-angle",
+    "brushes": "Front high-speed + rear roller",
+    "motor": "216 W",
+    "bin": "5 L",
+    "speed": "12–24 m/min",
+    "battery": "10,400 mAh",
+    "charge": "2–2.5 h",
+    "runtime": "3–4 h",
+    "filtration": "250 µm",
+    "waterproof": "IP68",
+    "dims": "46.9 × 39.6 × 25 cm",
+    "weight": "9 kg",
+    "modes": "4 modes",
+    "power": "100–240 VAC, 50/60 Hz",
+    "warranty": "2 years"
+   }
+  },
+  {
+   "id": "spr-seal",
+   "name": "SPR-SEAL",
+   "category": "wireless",
+   "badge": "",
+   "image": "assets/img/products/spr-seal-studio.jpg",
+   "images": [
+    "assets/img/products/spr-seal-studio.jpg",
+    "assets/img/products/spr-seal-wall.jpg",
+    "assets/img/products/spr-seal-underwater.jpg",
+    "assets/img/products/spr-seal-edge.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr-seal-wall.jpg",
+   "specs": {
+    "area": "≤ 400 m²",
+    "wall": "Curved wall climbing",
+    "brushes": "Front high-speed + rear roller",
+    "motor": "108 W",
+    "bin": "5 L",
+    "speed": "12–24 m/min",
+    "battery": "7,800 mAh",
+    "charge": "1.5–2 h",
+    "runtime": "2–2.5 h",
+    "filtration": "250 µm",
+    "waterproof": "IP68",
+    "dims": "42.6 × 39.6 × 28.7 cm",
+    "weight": "8.7 kg",
+    "modes": "4 modes",
+    "power": "100–240 VAC, 50/60 Hz",
+    "warranty": "2 years"
+   }
+  },
+  {
+   "id": "spr-crab",
+   "name": "SPR-CRAB",
+   "category": "wireless",
+   "badge": "smart",
+   "image": "assets/img/products/spr-crab-studio.jpg",
+   "images": [
+    "assets/img/products/spr-crab-studio.jpg",
+    "assets/img/products/spr-crab-underwater.jpg",
+    "assets/img/products/spr-crab-water.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr-crab-underwater.jpg",
+   "specs": {
+    "area": "≤ 300 m²",
+    "wall": "90° wall climbing",
+    "motor": "180 W",
+    "bin": "2.6 L",
+    "speed": "18 m/min",
+    "battery": "7,800 mAh",
+    "charge": "2–2.5 h",
+    "runtime": "180 min",
+    "filtration": "250 µm",
+    "waterproof": "IP68",
+    "dims": "42.5 × 38.4 × 25 cm",
+    "weight": "9 kg",
+    "modes": "App + sonar navigation",
+    "power": "100–250 VAC, 50/60 Hz",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "spr10",
+   "name": "SPR10",
+   "category": "wireless",
+   "badge": "compact",
+   "image": "assets/img/products/spr10-studio.jpg",
+   "images": [
+    "assets/img/products/spr10-studio.jpg",
+    "assets/img/products/spr10-pool.jpg",
+    "assets/img/products/spr10-debris.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr10-pool.jpg",
+   "specs": {
+    "area": "200 m²",
+    "wall": "Yes",
+    "motor": "60 W",
+    "battery": "5,200 mAh",
+    "charge": "2 h",
+    "runtime": "2.5 h",
+    "filtration": "180 µm",
+    "waterproof": "IP68",
+    "dims": "48.8 × 41.9 × 23.7 cm",
+    "weight": "9.9 kg",
+    "depth": "0.5–2.5 m",
+    "power": "100–240 V, 50/60 Hz",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "spr200",
+   "name": "SPR200",
+   "category": "wireless",
+   "badge": "2-in-1",
+   "image": "assets/img/products/spr200-module.jpg",
+   "images": [
+    "assets/img/products/spr200-module.jpg",
+    "assets/img/products/spr200-surface.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr200-surface.jpg",
+   "specs": {
+    "area": "300 m²",
+    "wall": "Yes",
+    "motor": "120 W + 80 W surface unit",
+    "battery": "10,400 mAh",
+    "charge": "2 h",
+    "runtime": "150 min",
+    "filtration": "180 µm",
+    "waterproof": "IP68",
+    "dims": "47.7 × 41.9 × 27.8 cm",
+    "weight": "11.8 kg + 2.4 kg",
+    "power": "100–240 V, 50/60 Hz",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "spr09",
+   "name": "SPR09",
+   "category": "corded",
+   "badge": "pro",
+   "image": "assets/img/products/spr09-studio.jpg",
+   "images": [
+    "assets/img/products/spr09-studio.jpg",
+    "assets/img/products/spr09-pool.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr09-pool.jpg",
+   "specs": {
+    "area": "≤ 500 m²",
+    "wall": "Yes",
+    "motor": "168 W",
+    "bin": "5.5 L",
+    "speed": "12–24 m/min",
+    "battery": "10,000 mAh",
+    "charge": "4.5–5 h",
+    "runtime": "3 h",
+    "filtration": "180 µm dual",
+    "waterproof": "IP68",
+    "dims": "49.8 × 39.9 × 26.9 cm",
+    "weight": "13 kg",
+    "power": "100–240 VAC, 50/60 Hz",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "l-series",
+   "name": "L SERIES",
+   "category": "corded",
+   "badge": "commercial",
+   "image": "assets/img/products/l350-studio.jpg",
+   "images": [
+    "assets/img/products/l350-studio.jpg",
+    "assets/img/products/l-series-closeup.jpg",
+    "assets/img/products/l-series-control.jpg",
+    "assets/img/products/l-series-underwater.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/l-series-closeup.jpg",
+   "specs": {
+    "area": "400 / 700 / 1,200 m²",
+    "wall": "90° right-angle",
+    "motor": "130 W max",
+    "speed": "12–24 m/min",
+    "battery": "12,800 mAh",
+    "runtime": "> 3.5 h",
+    "filtration": "5 µm",
+    "waterproof": "IP68",
+    "cable": "17 / 25 m",
+    "dims": "42.8 × 45 × 40 cm",
+    "weight": "11.5 kg",
+    "power": "24 V DC",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "c36-series",
+   "name": "C36 SERIES",
+   "category": "suction",
+   "badge": "value",
+   "image": "assets/img/products/c36-studio.jpg",
+   "images": [
+    "assets/img/products/c36-studio.jpg",
+    "assets/img/products/c36-white-studio.jpg",
+    "assets/img/products/c36-lineup.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/c36-white-studio.jpg",
+   "specs": {
+    "area": "300–600 m²",
+    "wall": "Yes, with waterline mode",
+    "motor": "150–200 W",
+    "speed": "12–13 m/min",
+    "filtration": "5–50 µm",
+    "cable": "18–25 m",
+    "dims": "48.6 × 42.6 × 23.7 cm",
+    "weight": "17.9–18.6 kg",
+    "power": "220 V / 50 Hz",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "spr013",
+   "name": "SPR013",
+   "category": "suction",
+   "badge": "entry",
+   "image": "assets/img/products/spr013-studio.jpg",
+   "images": [
+    "assets/img/products/spr013-studio.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/spr013-studio.jpg",
+   "specs": {
+    "area": "100 m²",
+    "motor": "30 W",
+    "battery": "5,000 mAh",
+    "charge": "2–3 h",
+    "runtime": "110 min+",
+    "filtration": "200 µm",
+    "waterproof": "IP68",
+    "depth": "2.5 m",
+    "speed": "6–18 m/min",
+    "dims": "36.6 × 30.9 × 17.1 cm",
+    "weight": "3.66 kg",
+    "warranty": "1 year"
+   }
+  },
+  {
+   "id": "pl-series",
+   "name": "PL SERIES",
+   "category": "surface",
+   "badge": "solar",
+   "image": "assets/img/products/pl01-studio.jpg",
+   "images": [
+    "assets/img/products/pl01-studio.jpg",
+    "assets/img/products/pl01-pool.jpg",
+    "assets/img/products/pl03-solar.jpg",
+    "assets/img/products/pl02-studio.jpg"
+   ],
+   "video": "",
+   "poster": "assets/img/products/pl01-pool.jpg",
+   "specs": {
+    "area": "80–186 m²",
+    "motor": "8–10 W",
+    "battery": "2,500–7,800 mAh",
+    "runtime": "2–12 h",
+    "filtration": "180–400 µm",
+    "waterproof": "IPX7 / IPX8",
+    "dims": "23.5 × 46.5 × 18 cm",
+    "weight": "4.8–6.5 kg",
+    "power": "Solar + adapter",
+    "warranty": "1 year"
+   }
+  }
+ ],
+ "features": [
+  {
+   "id": "climb",
+   "media": "assets/video/wall-climb.mp4",
+   "poster": "assets/img/renders/track-closeup.jpg"
+  },
+  {
+   "id": "modes",
+   "media": "assets/video/waterline.mp4",
+   "poster": "assets/img/renders/waterline.jpg"
+  },
+  {
+   "id": "filtration",
+   "media": "assets/img/renders/filter-basket.jpg",
+   "poster": "assets/img/renders/filter-basket.jpg"
+  },
+  {
+   "id": "navigation",
+   "media": "assets/img/renders/navigation.jpg",
+   "poster": "assets/img/renders/navigation.jpg"
+  },
+  {
+   "id": "app",
+   "media": "assets/img/renders/app-control.jpg",
+   "poster": "assets/img/renders/app-control.jpg"
+  },
+  {
+   "id": "build",
+   "media": "assets/img/products/l-series-closeup.jpg",
+   "poster": "assets/img/products/l-series-closeup.jpg"
+  }
+ ],
+ "gallery": [
+  {
+   "src": "assets/img/products/hero-lineup.jpg",
+   "label": "Wireless series line-up"
+  },
+  {
+   "src": "assets/img/products/lifestyle-resort.jpg",
+   "label": "Resort pool"
+  },
+  {
+   "src": "assets/img/products/pool-floor-wide.jpg",
+   "label": "Full floor coverage"
+  },
+  {
+   "src": "assets/img/products/spr-shark-steps.jpg",
+   "label": "Wall and step climbing"
+  },
+  {
+   "src": "assets/img/renders/underwater-hero.jpg",
+   "label": "Underwater glide"
+  },
+  {
+   "src": "assets/img/products/spr-seal-edge.jpg",
+   "label": "Poolside pickup"
+  },
+  {
+   "src": "assets/img/products/spr10-debris.jpg",
+   "label": "Debris intake"
+  },
+  {
+   "src": "assets/img/products/lifestyle-villa.jpg",
+   "label": "Private villa"
+  },
+  {
+   "src": "assets/img/products/pl01-pool.jpg",
+   "label": "Surface skimming"
+  },
+  {
+   "src": "assets/img/products/wired-lineup.jpg",
+   "label": "Corded series"
+  },
+  {
+   "src": "assets/img/renders/waterline.jpg",
+   "label": "Waterline cleaning"
+  },
+  {
+   "src": "assets/img/products/l-series-top.jpg",
+   "label": "Commercial grade"
+  }
+ ],
+ "hero": {
+  "video": "assets/video/hero.mp4",
+  "poster": "assets/img/renders/underwater-hero.jpg"
+ }
+}

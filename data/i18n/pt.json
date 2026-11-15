@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "title": "KARYLITE Pool Robotics — Robôs limpadores de piscina para casas, hotéis e piscinas comerciais",
+  "desc": "Robôs de piscina sem fio e com cabo: subida em paredes a 90°, filtração de 5 µm e proteção IP68. Fabricante OEM/ODM para distribuidores."
+ },
+ "ui": {
+  "navProducts": "Produtos",
+  "navTech": "Tecnologia",
+  "navGallery": "Galeria",
+  "navCompany": "Empresa",
+  "navSupport": "Suporte",
+  "navContact": "Contato",
+  "ctaExplore": "Conheça a linha",
+  "ctaDealer": "Seja revendedor",
+  "ctaQuote": "Solicitar orçamento",
+  "ctaAllProducts": "Todos os produtos",
+  "ctaViewProduct": "Ver modelo",
+  "ctaWatch": "Assista ao vídeo",
+  "specTitle": "Especificações técnicas",
+  "labelModel": "Modelo",
+  "labelCategory": "Categoria",
+  "labelSeries": "Série",
+  "labelRelated": "Modelos relacionados",
+  "labelBack": "Voltar a todos os produtos",
+  "labelHome": "Início",
+  "specArea": "Área da piscina",
+  "specWall": "Subida em paredes",
+  "specBrushes": "Escovas de limpeza",
+  "specMotor": "Potência do motor",
+  "specBin": "Cesto filtrante",
+  "specSpeed": "Velocidade",
+  "specBattery": "Bateria",
+  "specCharge": "Tempo de carga",
+  "specRuntime": "Autonomia",
+  "specFiltration": "Filtração",
+  "specWaterproof": "Vedação",
+  "specDims": "Dimensões",
+  "specWeight": "Peso",
+  "specModes": "Modos de limpeza",
+  "specPower": "Alimentação",
+  "specWarranty": "Garantia",
+  "specCable": "Comprimento do cabo",
+  "specDepth": "Profundidade",
+  "formName": "Nome",
+  "formEmail": "E-mail",
+  "formCompany": "Empresa",
+  "formCountry": "País",
+  "formMessage": "Do que você precisa?",
+  "formSend": "Enviar consulta",
+  "formNote": "Respondemos em um dia útil. Seus dados nunca são compartilhados.",
+  "langLabel": "Idioma",
+  "menu": "Menu",
+  "close": "Fechar",
+  "playFilm": "Reproduzir",
+  "footerProducts": "Produtos",
+  "footerCompany": "Empresa",
+  "footerSupport": "Suporte",
+  "footerLegal": "Legal",
+  "footerRights": "Todos os direitos reservados.",
+  "footerPrivacy": "Privacidade",
+  "footerTerms": "Termos",
+  "statCoverage": "Cobertura por unidade",
+  "statFiltration": "Filtração mais fina",
+  "statClimb": "Subida vertical",
+  "statWaterproof": "Totalmente submersível",
+  "catWireless": "Linha sem fio",
+  "catCorded": "Linha com cabo",
+  "catSuction": "Aspiradores de piscina",
+  "catSurface": "Coletores de superfície",
+  "highlightsTitle": "Destaques"
+ },
+ "home": {
+  "heroEyebrow": "Robótica de piscina totalmente automática",
+  "heroTitle": "Água cristalina, sem trabalho.",
+  "heroSub": "Robôs projetados para casas, hotéis e piscinas comerciais: liberdade sem fio, subida em paredes a 90° e filtração até 5 mícrons.",
+  "heroCta1": "Conheça a linha",
+  "heroCta2": "Seja revendedor",
+  "introEyebrow": "O padrão KARYLITE",
+  "introTitle": "Feito para a água. Pensado para o silêncio.",
+  "introText": "Cada robô KARYLITE nasce de três obsessões: cobertura completa, uso sem esforço e água transparente. A tração de esteira dupla se fixa em paredes verticais, o conjunto IP68 resiste à imersão diária e o cesto superior se esvazia em segundos — sem ferramentas.",
+  "seriesEyebrow": "A linha",
+  "seriesTitle": "Um sistema para cada piscina.",
+  "seriesSub": "Da piscina de jardim de 100 m² ao tanque de hotel de 1.200 m²: escolha a plataforma certa para a água que você mantém.",
+  "catWirelessDesc": "Liberdade a bateria. Sem cabo enrolado, sem tomada na beira da piscina.",
+  "catCordedDesc": "Autonomia ilimitada e sucção de nível comercial para grandes tanques.",
+  "catSuctionDesc": "Confiável, simples e econômico para piscinas residenciais menores.",
+  "catSurfaceDesc": "Coletores com apoio solar que mantêm as folhas fora da água.",
+  "techEyebrow": "Engenharia",
+  "techTitle": "Os detalhes que você sente a cada temporada.",
+  "techSub": "Não é teatro de ficha técnica. Seis sistemas que decidem se um robô é um gadget ou uma ferramenta.",
+  "compareEyebrow": "Comparar",
+  "compareTitle": "Encontre seu modelo.",
+  "compareSub": "Os números principais lado a lado. Especificações completas em cada página.",
+  "galleryEyebrow": "Na água",
+  "galleryTitle": "Piscinas reais. Ciclos reais.",
+  "gallerySub": "Instalados em casas, hotéis e piscinas comerciais em mais de 60 países.",
+  "serviceEyebrow": "Pós-venda",
+  "serviceTitle": "Suporte que responde.",
+  "serviceSub": "Vendemos por meio de parceiros — e os apoiamos como ao nosso próprio time.",
+  "oemEyebrow": "OEM / ODM",
+  "oemTitle": "Sua marca, nossa plataforma.",
+  "oemText": "Marca própria a partir de 100 unidades: cores da carcaça, logo impresso, embalagem de varejo, variações de tensão e plugue, e manuais no seu idioma.",
+  "ctaTitle": "Vamos falar da sua piscina.",
+  "ctaSub": "Informe o tamanho do tanque e seu mercado — indicamos a plataforma certa e enviamos o orçamento em um dia útil.",
+  "companyEyebrow": "Sobre a KARYLITE",
+  "companyTitle": "Uma fábrica, não um marketplace.",
+  "companyText": "Desde 2009 a KARYLITE desenvolve iluminação e equipamentos de tratamento de água para distribuidores e profissionais de piscina. Nossa linha de robótica é fabricada internamente — motores, vedações, filtração e firmware — para manter peças, personalização e suporte sob o mesmo teto.",
+  "companyStat1": "16",
+  "companyStat1Label": "anos de fabricação",
+  "companyStat2": "60+",
+  "companyStat2Label": "mercados de exportação",
+  "companyStat3": "2 anos",
+  "companyStat3Label": "garantia do topo de linha"
+ },
+ "features": {
+  "climb": {
+   "title": "Subida em paredes a 90°",
+   "desc": "Esteiras de borracha contínua e flutuação equilibrada mantêm o robô colado a paredes verticais e cantos retos — onde os robôs de rodas param."
+  },
+  "modes": {
+   "title": "Quatro modos de limpeza",
+   "desc": "Cobertura total, linha d'água, só parede ou só fundo. Escolha o modo que combina com a sujeira de hoje em vez de rodar um ciclo completo."
+  },
+  "filtration": {
+   "title": "Filtração de 5 µm",
+   "desc": "Cesto superior de até 5 L. Os modelos L-Series filtram até 5 mícrons: pólen, algas e areia fina ficam fora da água."
+  },
+  "navigation": {
+   "title": "Roteamento por sonar",
+   "desc": "Sensores de sonar mapeiam o tanque e planejam uma rota sem sobreposição, para o robô cobrir o fundo sem vagar nem travar."
+  },
+  "app": {
+   "title": "Controle da beira da piscina",
+   "desc": "Inicie, programe e troque de modo pelo celular. Bateria, status do ciclo e lembretes de filtro em um só olhar."
+  },
+  "build": {
+   "title": "IP68, temporada após temporada",
+   "desc": "Motores vedados, carcaças resistentes aos raios UV e conjunto 24 V DC testado — com até dois anos de garantia nos modelos principais."
+  }
+ },
+ "service": {
+  "items": [
+   "Suporte técnico gratuito, incluindo orientação de instalação.",
+   "Consultas de pós-venda respondidas em até 24 horas.",
+   "Pacotes de imagens, vídeos e projetos de piscina gratuitos.",
+   "Rastreamento logístico online em cada envio.",
+   "Visitas periódicas de acompanhamento e pesquisa de satisfação."
+  ],
+  "oemItems": [
+   "Cor e logo personalizados",
+   "Embalagem pronta para varejo",
+   "Variações de tensão e plugue",
+   "Manuais localizados"
+  ]
+ },
+ "products": {
+  "spr-shark": {
+   "tagline": "O topo de linha. Paredes a 90°, cesto de 5 L, garantia de 2 anos.",
+   "desc": "Nossa plataforma sem fio mais capaz: 216 W, cesto superior de 5 L e 3–4 horas de autonomia com 10.400 mAh. Sobe paredes em ângulo reto e degraus sem as esteiras escorregarem."
+  },
+  "spr-seal": {
+   "tagline": "Paredes curvas, pegada mais leve.",
+   "desc": "Plataforma sem fio de 108 W ajustada para piscinas de parede curva. Cesto de 5 L, 7.800 mAh e corpo esguio de 8,7 kg, fácil de retirar após o ciclo."
+  },
+  "spr-crab": {
+   "tagline": "Navegação por sonar em corpo compacto.",
+   "desc": "Controle por app, detecção de obstáculos por sonar e planejamento inteligente em um chassi de 9 kg — para piscinas de até 300 m² com degraus e móveis."
+  },
+  "spr10": {
+   "tagline": "O compacto do dia a dia.",
+   "desc": "Robô sem fio de 60 W para piscinas de até 200 m² e 2,5 m de profundidade. Filtração de 180 µm, 2,5 horas de autonomia e 9,9 kg."
+  },
+  "spr200": {
+   "tagline": "Robô mais módulo de superfície.",
+   "desc": "Um robô de fundo e parede para 300 m² com uma unidade de superfície separada que recolhe folhas flutuantes — duas máquinas, um só ecossistema de carga."
+  },
+  "spr09": {
+   "tagline": "Potência com cabo, 5,5 L de capacidade.",
+   "desc": "168 W de potência contínua com cabo, cesto de 5,5 L e filtração dupla de 180 µm para piscinas de até 500 m². Sem preocupação com autonomia."
+  },
+  "l-series": {
+   "tagline": "Nível comercial. Filtração de 5 µm.",
+   "desc": "Três tamanhos de tanque — 400, 700 e 1.200 m² — com subida a 90°, filtração de 5 µm e 17–25 m de cabo. O cavalo de batalha de hotéis e piscinas públicas."
+  },
+  "c36-series": {
+   "tagline": "Sucção comprovada.",
+   "desc": "Aspirador com escova rotativa e dupla boca larga. Cobertura de 300–600 m², filtração de 5–50 µm e 18–25 m de cabo."
+  },
+  "spr013": {
+   "tagline": "Entrada de linha, realmente útil.",
+   "desc": "Um limpador de 3,66 kg para piscinas de até 100 m² e 2,5 m de profundidade. 30 W, mais de 110 minutos de autonomia e cesto de 200 µm."
+  },
+  "pl-series": {
+   "tagline": "Limpeza de superfície solar.",
+   "desc": "Coletores de superfície autônomos que percorrem a linha d'água e engolem as folhas antes de afundarem. Os modelos solares rodam até 12 horas."
+  }
+ },
+ "legal": {
+  "metaTitle": "Informações legais — Privacidade e termos | KARYLITE",
+  "metaDesc": "Como a KARYLITE trata os dados pessoais recolhidos neste site e os termos aplicáveis à sua utilização.",
+  "eyebrow": "Informações legais",
+  "title": "Privacidade e termos",
+  "updated": "Última atualização: setembro de 2026",
+  "privacyTitle": "Política de privacidade",
+  "privacyIntro": "Esta política explica que dados pessoais recolhemos através deste site, para que finalidades e durante quanto tempo os conservamos.",
+  "privacy": [
+   "Dados que nos fornece. Ao enviar um pedido de informação recolhemos o seu nome, e-mail, empresa, país e mensagem. Utilizamo-los apenas para responder ao pedido e gerir a relação comercial que dele resulte.",
+   "Dados técnicos. O nosso fornecedor de alojamento registra os logs padrão do servidor — endereço IP, navegador, páginas solicitadas e hora de acesso — para fins de segurança e desempenho. Não os utilizamos para criar perfis publicitários.",
+   "Cookies e armazenamento local. Este site não utiliza cookies publicitários ou de análise. A sua preferência de idioma é guardada localmente no navegador e nunca nos é transmitida.",
+   "Partilha. Não vendemos dados pessoais. São partilhados apenas com o fornecedor de alojamento e, quando aplicável, com o distribuidor responsável pelo seu mercado.",
+   "Conservação e direitos. Os pedidos são conservados até 36 meses. Pode solicitar acesso, retificação, eliminação ou portabilidade e opor-se ao tratamento, escrevendo para o endereço indicado abaixo."
+  ],
+  "termsTitle": "Termos de utilização",
+  "termsIntro": "Ao aceder a este site aceita os termos abaixo.",
+  "terms": [
+   "Informação, não contrato. Imagens, especificações e descrições de produtos são publicadas a título informativo. Modelos, cores e dados técnicos podem mudar sem aviso prévio; a especificação vinculativa é a constante do contrato assinado ou da fatura proforma.",
+   "Propriedade intelectual. O nome KARYLITE, o logotipo, as fotografias e os textos são nossos ou licenciados. A reprodução comercial exige o nosso consentimento escrito.",
+   "Utilização permitida. Pode consultar o site, citar conteúdos com indicação da fonte e partilhar links. A extração automatizada, a revenda de conteúdos e a utilização em catálogos concorrentes não são permitidas.",
+   "Responsabilidade. O site é fornecido tal como está. Na medida permitida por lei, excluímos a responsabilidade por danos indiretos decorrentes da sua utilização.",
+   "Lei aplicável. Estes termos regem-se pelas leis da República Popular da China. Os litígios ficam sujeitos aos tribunais da nossa sede."
+  ],
+  "contactTitle": "Responsável pelo tratamento e contacto",
+  "contactText": "Para qualquer questão sobre esta política ou os seus dados, escreva para {email}."
+ }
+}

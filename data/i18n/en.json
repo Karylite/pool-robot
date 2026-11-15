@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "title": "KARYLITE Pool Robotics — Robotic Pool Cleaners for Villas, Resorts & Commercial Pools",
+  "desc": "Wireless and corded robotic pool cleaners with 90° wall climbing, 5 µm filtration and IP68 protection. OEM/ODM manufacturer for distributors worldwide."
+ },
+ "ui": {
+  "navProducts": "Products",
+  "navTech": "Technology",
+  "navGallery": "Gallery",
+  "navCompany": "Company",
+  "navSupport": "Support",
+  "navContact": "Contact",
+  "ctaExplore": "Explore the range",
+  "ctaDealer": "Become a dealer",
+  "ctaQuote": "Request a quote",
+  "ctaAllProducts": "All products",
+  "ctaViewProduct": "View model",
+  "ctaWatch": "Watch the film",
+  "specTitle": "Technical specifications",
+  "labelModel": "Model",
+  "labelCategory": "Category",
+  "labelSeries": "Series",
+  "labelRelated": "Related models",
+  "labelBack": "Back to all products",
+  "labelHome": "Home",
+  "specArea": "Pool area",
+  "specWall": "Wall climbing",
+  "specBrushes": "Cleaning brushes",
+  "specMotor": "Motor power",
+  "specBin": "Filter basket",
+  "specSpeed": "Moving speed",
+  "specBattery": "Battery",
+  "specCharge": "Charging time",
+  "specRuntime": "Runtime",
+  "specFiltration": "Filtration",
+  "specWaterproof": "Waterproof rating",
+  "specDims": "Dimensions",
+  "specWeight": "Weight",
+  "specModes": "Cleaning modes",
+  "specPower": "Power supply",
+  "specWarranty": "Warranty",
+  "specCable": "Cable length",
+  "specDepth": "Pool depth",
+  "formName": "Name",
+  "formEmail": "Email",
+  "formCompany": "Company",
+  "formCountry": "Country",
+  "formMessage": "What do you need?",
+  "formSend": "Send inquiry",
+  "formNote": "We reply within one business day. Your details are never shared.",
+  "langLabel": "Language",
+  "menu": "Menu",
+  "close": "Close",
+  "playFilm": "Play film",
+  "footerProducts": "Products",
+  "footerCompany": "Company",
+  "footerSupport": "Support",
+  "footerLegal": "Legal",
+  "footerRights": "All rights reserved.",
+  "footerPrivacy": "Privacy",
+  "footerTerms": "Terms",
+  "statCoverage": "Coverage per unit",
+  "statFiltration": "Finest filtration",
+  "statClimb": "Vertical climbing",
+  "statWaterproof": "Fully submersible",
+  "catWireless": "Wireless Series",
+  "catCorded": "Corded Series",
+  "catSuction": "Suction Cleaners",
+  "catSurface": "Surface Collectors",
+  "highlightsTitle": "Highlights"
+ },
+ "home": {
+  "heroEyebrow": "Full-automatic pool robotics",
+  "heroTitle": "Crystal water, without the work.",
+  "heroSub": "Robotic cleaners engineered for villas, resorts and commercial pools — wireless freedom, 90° wall climbing and filtration down to 5 microns.",
+  "heroCta1": "Explore the range",
+  "heroCta2": "Become a dealer",
+  "introEyebrow": "The KARYLITE standard",
+  "introTitle": "Built for water. Designed for silence.",
+  "introText": "Every KARYLITE robot is built around three obsessions: complete coverage, effortless ownership and water you can see through. Dual-track traction holds vertical walls, a sealed IP68 drivetrain survives daily immersion, and a top-loading basket empties in seconds — no tools, no mess.",
+  "seriesEyebrow": "The range",
+  "seriesTitle": "One system for every pool.",
+  "seriesSub": "From a 100 m² garden pool to a 1,200 m² resort basin — choose the platform that fits the water you maintain.",
+  "catWirelessDesc": "Battery-powered freedom. No cable to tangle, no socket by the pool.",
+  "catCordedDesc": "Unlimited runtime and commercial-grade suction for large basins.",
+  "catSuctionDesc": "Proven, simple and cost-effective for smaller residential pools.",
+  "catSurfaceDesc": "Solar-assisted skimmers that keep leaves off the surface.",
+  "techEyebrow": "Engineering",
+  "techTitle": "The details you feel every season.",
+  "techSub": "Not spec-sheet theatre. Six systems that decide whether a robot is a gadget or a tool.",
+  "compareEyebrow": "Compare",
+  "compareTitle": "Find your model.",
+  "compareSub": "Key figures side by side. Full specifications on every product page.",
+  "galleryEyebrow": "In the water",
+  "galleryTitle": "Real pools. Real duty cycles.",
+  "gallerySub": "Installed in villas, hotels and commercial basins in more than 60 countries.",
+  "serviceEyebrow": "After-sales",
+  "serviceTitle": "Support that answers.",
+  "serviceSub": "We sell through partners — and we back them like our own team.",
+  "oemEyebrow": "OEM / ODM",
+  "oemTitle": "Your brand, our platform.",
+  "oemText": "Private label from 100 units: custom housing colours, printed logo, retail packaging, voltage and plug variants, and manuals in your language.",
+  "ctaTitle": "Let's talk about your pool.",
+  "ctaSub": "Tell us the basin size and your market — we will recommend the right platform and quote within one business day.",
+  "companyEyebrow": "About KARYLITE",
+  "companyTitle": "A manufacturer, not a marketplace.",
+  "companyText": "Since 2009 KARYLITE has engineered lighting and water-care hardware for distributors and pool professionals. Our robotics line is built in-house — motors, seals, filtration and firmware — so spares, customisation and support stay under one roof.",
+  "companyStat1": "16",
+  "companyStat1Label": "years manufacturing",
+  "companyStat2": "60+",
+  "companyStat2Label": "export markets",
+  "companyStat3": "2 yr",
+  "companyStat3Label": "flagship warranty"
+ },
+ "features": {
+  "climb": {
+   "title": "90° wall climbing",
+   "desc": "Continuous rubber tracks and balanced buoyancy hold the robot against vertical walls and right-angle corners — scrubbing where wheeled cleaners stall."
+  },
+  "modes": {
+   "title": "Four cleaning modes",
+   "desc": "Full coverage, waterline, wall only or floor only. Set the mode that matches today's mess instead of running a full cycle."
+  },
+  "filtration": {
+   "title": "5 µm filtration",
+   "desc": "A top-loading basket with up to 5 L capacity. L-Series models filter down to 5 microns — pollen, algae and fine sand stay out of your water."
+  },
+  "navigation": {
+   "title": "Sonar path planning",
+   "desc": "Sonar sensors map the basin and plan a non-overlapping route, so the robot covers the floor without wandering or getting stuck."
+  },
+  "app": {
+   "title": "Control from the deck",
+   "desc": "Start, schedule and switch modes from your phone. Battery, cycle status and filter reminders at a glance."
+  },
+  "build": {
+   "title": "IP68, season after season",
+   "desc": "Sealed motors, UV-stable housings and a tested 24 V DC drivetrain — with up to two years of warranty on flagship models."
+  }
+ },
+ "service": {
+  "items": [
+   "Free technical support, including installation guidance.",
+   "After-sales inquiries answered within 24 hours.",
+   "Free image packs, video assets and pool construction drafts.",
+   "Online logistics tracking on every shipment.",
+   "Regular follow-up visits and satisfaction checks."
+  ],
+  "oemItems": [
+   "Custom colour & logo",
+   "Retail-ready packaging",
+   "Voltage & plug variants",
+   "Localised manuals"
+  ]
+ },
+ "products": {
+  "spr-shark": {
+   "tagline": "The flagship. 90° walls, 5 L basket, 2-year warranty.",
+   "desc": "Our most capable wireless platform: 216 W of drive power, a 5 L top-loading basket and 3–4 hours of runtime on a 10,400 mAh pack. Climbs right-angle walls and steps without the tracks slipping."
+  },
+  "spr-seal": {
+   "tagline": "Curved walls, lighter footprint.",
+   "desc": "A 108 W wireless platform tuned for curved-wall pools. 5 L basket, 7,800 mAh and a slim 8.7 kg body that is easy to lift out after a cycle."
+  },
+  "spr-crab": {
+   "tagline": "Sonar navigation in a compact body.",
+   "desc": "App control, sonar obstacle detection and intelligent path planning in a 9 kg chassis — built for pools up to 300 m² where steps and furniture get in the way."
+  },
+  "spr10": {
+   "tagline": "The everyday compact.",
+   "desc": "A 60 W wireless cleaner for pools up to 200 m² and 2.5 m deep. 180 µm filtration, 2.5 hours of runtime and a 9.9 kg body."
+  },
+  "spr200": {
+   "tagline": "Robot plus surface module.",
+   "desc": "A 300 m² floor and wall robot paired with a separate surface unit that collects floating leaves — two machines, one charging ecosystem."
+  },
+  "spr09": {
+   "tagline": "Corded power, 5.5 L capacity.",
+   "desc": "168 W of continuous corded power with a 5.5 L basket and dual 180 µm filtration for pools up to 500 m². No runtime anxiety."
+  },
+  "l-series": {
+   "tagline": "Commercial grade. 5 µm filtration.",
+   "desc": "Three basin sizes — 400, 700 and 1,200 m² — with 90° climbing, 5 µm filtration and 17–25 m of cable. The workhorse for hotels and public pools."
+  },
+  "c36-series": {
+   "tagline": "Proven suction cleaning.",
+   "desc": "A suction cleaner with a rolling brush and dual wide intake. 300–600 m² coverage, 5–50 µm filtration and 18–25 m of cable."
+  },
+  "spr013": {
+   "tagline": "Entry level, genuinely useful.",
+   "desc": "A 3.66 kg cleaner for pools up to 100 m² and 2.5 m deep. 30 W, 110+ minutes of runtime and a 200 µm basket."
+  },
+  "pl-series": {
+   "tagline": "Solar skimming.",
+   "desc": "Autonomous surface collectors that cruise the waterline and swallow leaves before they sink. Solar-assisted models run up to 12 hours."
+  }
+ },
+ "legal": {
+  "metaTitle": "Legal — Privacy Policy & Terms | KARYLITE",
+  "metaDesc": "How KARYLITE handles personal data collected through this website, and the terms that apply to its use.",
+  "eyebrow": "Legal",
+  "title": "Privacy & terms",
+  "updated": "Last updated: September 2026",
+  "privacyTitle": "Privacy policy",
+  "privacyIntro": "This policy explains what personal data we collect through this website, why we collect it and how long we keep it.",
+  "privacy": [
+   "Data you provide. When you send an inquiry we collect your name, email address, company, country and message. We use it only to answer your request and to manage the commercial relationship that follows.",
+   "Technical data. Our hosting provider records standard server logs — IP address, browser type, pages requested and time of access — for security and performance monitoring. They are not used to build advertising profiles.",
+   "Cookies and local storage. This site sets no advertising or analytics cookies. Your language choice is stored locally in your browser and is never sent to us.",
+   "Sharing. We do not sell personal data. It is shared only with our hosting provider and, where relevant, with the distributor responsible for your market.",
+   "Retention and your rights. Inquiries are kept for up to 36 months. You may request access, correction, deletion or portability, or object to processing, by writing to the address below."
+  ],
+  "termsTitle": "Terms of use",
+  "termsIntro": "By accessing this website you agree to the terms below.",
+  "terms": [
+   "Information, not a contract. Product images, specifications and descriptions are published for information only. Models, colours and technical data may change without notice; the binding specification is the one stated in your signed contract or proforma invoice.",
+   "Intellectual property. The KARYLITE name, logo, photography and copy are owned by us or licensed to us. Commercial reproduction requires our written consent.",
+   "Permitted use. You may browse this site, quote from it with attribution and share links. Automated scraping, resale of content and use in competing catalogues are not permitted.",
+   "Liability. The site is provided as is. To the extent permitted by law we exclude liability for indirect or consequential loss arising from its use.",
+   "Governing law. These terms are governed by the laws of the People's Republic of China. Disputes are subject to the courts at our registered address."
+  ],
+  "contactTitle": "Controller and contact",
+  "contactText": "For any question about this policy or your data, write to {email}."
+ }
+}

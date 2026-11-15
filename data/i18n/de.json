@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "title": "KARYLITE Pool Robotics — Poolroboter für Villen, Hotels und Gewerbebecken",
+  "desc": "Kabellose und kabelgebundene Poolroboter mit 90°-Wandklettern, 5-µm-Filtration und IP68. OEM/ODM-Hersteller für Distributoren."
+ },
+ "ui": {
+  "navProducts": "Produkte",
+  "navTech": "Technologie",
+  "navGallery": "Galerie",
+  "navCompany": "Unternehmen",
+  "navSupport": "Service",
+  "navContact": "Kontakt",
+  "ctaExplore": "Sortiment entdecken",
+  "ctaDealer": "Händler werden",
+  "ctaQuote": "Angebot anfordern",
+  "ctaAllProducts": "Alle Produkte",
+  "ctaViewProduct": "Modell ansehen",
+  "ctaWatch": "Film ansehen",
+  "specTitle": "Technische Daten",
+  "labelModel": "Modell",
+  "labelCategory": "Kategorie",
+  "labelSeries": "Serie",
+  "labelRelated": "Ähnliche Modelle",
+  "labelBack": "Zurück zu allen Produkten",
+  "labelHome": "Startseite",
+  "specArea": "Beckenfläche",
+  "specWall": "Wandklettern",
+  "specBrushes": "Reinigungsbürsten",
+  "specMotor": "Motorleistung",
+  "specBin": "Filterkorb",
+  "specSpeed": "Fahrgeschwindigkeit",
+  "specBattery": "Akku",
+  "specCharge": "Ladezeit",
+  "specRuntime": "Laufzeit",
+  "specFiltration": "Filtration",
+  "specWaterproof": "Wasserdichtigkeit",
+  "specDims": "Abmessungen",
+  "specWeight": "Gewicht",
+  "specModes": "Reinigungsmodi",
+  "specPower": "Stromversorgung",
+  "specWarranty": "Garantie",
+  "specCable": "Kabellänge",
+  "specDepth": "Beckentiefe",
+  "formName": "Name",
+  "formEmail": "E-Mail",
+  "formCompany": "Unternehmen",
+  "formCountry": "Land",
+  "formMessage": "Was benötigen Sie?",
+  "formSend": "Anfrage senden",
+  "formNote": "Wir antworten innerhalb eines Werktags. Ihre Daten werden nicht weitergegeben.",
+  "langLabel": "Sprache",
+  "menu": "Menü",
+  "close": "Schließen",
+  "playFilm": "Abspielen",
+  "footerProducts": "Produkte",
+  "footerCompany": "Unternehmen",
+  "footerSupport": "Service",
+  "footerLegal": "Rechtliches",
+  "footerRights": "Alle Rechte vorbehalten.",
+  "footerPrivacy": "Datenschutz",
+  "footerTerms": "AGB",
+  "statCoverage": "Fläche pro Gerät",
+  "statFiltration": "Feinste Filtration",
+  "statClimb": "Vertikales Klettern",
+  "statWaterproof": "Vollständig tauchfähig",
+  "catWireless": "Kabellose Serie",
+  "catCorded": "Kabelgebundene Serie",
+  "catSuction": "Saugreiniger",
+  "catSurface": "Oberflächenreiniger",
+  "highlightsTitle": "Highlights"
+ },
+ "home": {
+  "heroEyebrow": "Vollautomatische Poolrobotik",
+  "heroTitle": "Klares Wasser, ohne Arbeit.",
+  "heroSub": "Poolroboter für Villen, Hotels und Gewerbebecken — kabellose Freiheit, 90°-Wandklettern und Filtration bis 5 Mikrometer.",
+  "heroCta1": "Sortiment entdecken",
+  "heroCta2": "Händler werden",
+  "introEyebrow": "Der KARYLITE-Standard",
+  "introTitle": "Für Wasser gebaut. Auf Stille ausgelegt.",
+  "introText": "Jeder KARYLITE-Roboter folgt drei Prinzipien: vollständige Abdeckung, mühelose Bedienung und Wasser, durch das man sieht. Der Doppelkettenantrieb hält an senkrechten Wänden, der abgedichtete IP68-Antrieb übersteht den täglichen Einsatz im Wasser, und der Korb oben entleert sich in Sekunden — ohne Werkzeug.",
+  "seriesEyebrow": "Das Sortiment",
+  "seriesTitle": "Ein System für jeden Pool.",
+  "seriesSub": "Vom 100-m²-Gartenbecken bis zum 1.200-m²-Hotelbecken — wählen Sie die Plattform, die zu Ihrem Wasser passt.",
+  "catWirelessDesc": "Freiheit per Akku. Kein Kabelgewirr, keine Steckdose am Beckenrand.",
+  "catCordedDesc": "Unbegrenzte Laufzeit und gewerbliche Saugleistung für große Becken.",
+  "catSuctionDesc": "Bewährt, einfach und wirtschaftlich für kleinere Privatbecken.",
+  "catSurfaceDesc": "Solarunterstützte Skimmer, die Laub von der Oberfläche holen.",
+  "techEyebrow": "Technik",
+  "techTitle": "Die Details, die Sie jede Saison spüren.",
+  "techSub": "Kein Datenblatt-Theater. Sechs Systeme entscheiden, ob ein Roboter ein Gadget oder ein Werkzeug ist.",
+  "compareEyebrow": "Vergleichen",
+  "compareTitle": "Finden Sie Ihr Modell.",
+  "compareSub": "Die wichtigsten Werte nebeneinander. Vollständige Daten auf jeder Produktseite.",
+  "galleryEyebrow": "Im Wasser",
+  "galleryTitle": "Echte Becken. Echte Lastzyklen.",
+  "gallerySub": "Installiert in Villen, Hotels und Gewerbebecken in über 60 Ländern.",
+  "serviceEyebrow": "Kundendienst",
+  "serviceTitle": "Service, der antwortet.",
+  "serviceSub": "Wir verkaufen über Partner — und unterstützen sie wie unser eigenes Team.",
+  "oemEyebrow": "OEM / ODM",
+  "oemTitle": "Ihre Marke, unsere Plattform.",
+  "oemText": "Private Label ab 100 Stück: Gehäusefarben, aufgedrucktes Logo, Verkaufsverpackung, Spannungs- und Steckervarianten sowie Handbücher in Ihrer Sprache.",
+  "ctaTitle": "Sprechen wir über Ihren Pool.",
+  "ctaSub": "Nennen Sie uns Beckengröße und Markt — wir empfehlen die passende Plattform und senden das Angebot innerhalb eines Werktags.",
+  "companyEyebrow": "Über KARYLITE",
+  "companyTitle": "Ein Hersteller, kein Marktplatz.",
+  "companyText": "Seit 2009 entwickelt KARYLITE Beleuchtung und Wasseraufbereitungstechnik für Distributoren und Poolprofis. Unsere Robotiklinie entsteht im eigenen Haus — Motoren, Dichtungen, Filtration und Firmware — damit Ersatzteile, Individualisierung und Support aus einer Hand bleiben.",
+  "companyStat1": "16",
+  "companyStat1Label": "Jahre Fertigung",
+  "companyStat2": "60+",
+  "companyStat2Label": "Exportmärkte",
+  "companyStat3": "2 Jahre",
+  "companyStat3Label": "Garantie auf Flaggschiff"
+ },
+ "features": {
+  "climb": {
+   "title": "90°-Wandklettern",
+   "desc": "Endlos-Gummiketten und ausbalancierter Auftrieb halten den Roboter an senkrechten Wänden und rechtwinkligen Ecken — dort, wo Radroboter stehen bleiben."
+  },
+  "modes": {
+   "title": "Vier Reinigungsmodi",
+   "desc": "Vollständige Abdeckung, Wasserlinie, nur Wand oder nur Boden. Wählen Sie den Modus passend zum heutigen Schmutz statt eines kompletten Zyklus."
+  },
+  "filtration": {
+   "title": "5-µm-Filtration",
+   "desc": "Korb von oben entnehmbar, bis 5 L. L-Series-Modelle filtern bis 5 Mikrometer — Pollen, Algen und Feinsand bleiben draußen."
+  },
+  "navigation": {
+   "title": "Sonar-Routenplanung",
+   "desc": "Sonarsensoren kartieren das Becken und planen eine überlappungsfreie Route, damit der Roboter den Boden abdeckt, ohne umherzuirren oder festzustecken."
+  },
+  "app": {
+   "title": "Steuerung vom Beckenrand",
+   "desc": "Starten, planen und Modi wechseln per Smartphone. Akkustand, Zyklusstatus und Filtererinnerungen auf einen Blick."
+  },
+  "build": {
+   "title": "IP68, Saison für Saison",
+   "desc": "Abgedichtete Motoren, UV-stabile Gehäuse und ein geprüfter 24-V-DC-Antrieb — mit bis zu zwei Jahren Garantie auf Flaggschiffmodelle."
+  }
+ },
+ "service": {
+  "items": [
+   "Kostenloser technischer Support, inklusive Montagehilfe.",
+   "Antwort auf Serviceanfragen innerhalb von 24 Stunden.",
+   "Kostenlose Bildpakete, Videos und Beckenplanungen.",
+   "Online-Logistikverfolgung für jede Sendung.",
+   "Regelmäßige Nachbesuche und Zufriedenheitschecks."
+  ],
+  "oemItems": [
+   "Eigene Farbe & Logo",
+   "Verkaufsfertige Verpackung",
+   "Spannungs- & Steckervarianten",
+   "Lokalisierte Handbücher"
+  ]
+ },
+ "products": {
+  "spr-shark": {
+   "tagline": "Das Flaggschiff. 90°-Wände, 5-L-Korb, 2 Jahre Garantie.",
+   "desc": "Unsere leistungsfähigste kabellose Plattform: 216 W, 5-L-Korb von oben und 3–4 Stunden Laufzeit mit 10.400 mAh. Klettert rechtwinklige Wände und Stufen, ohne dass die Ketten rutschen."
+  },
+  "spr-seal": {
+   "tagline": "Runde Wände, leichterer Auftritt.",
+   "desc": "Kabellose 108-W-Plattform für Becken mit gewölbten Wänden. 5-L-Korb, 7.800 mAh und ein schlanker Körper mit 8,7 kg, der sich leicht herausheben lässt."
+  },
+  "spr-crab": {
+   "tagline": "Sonarnavigation im kompakten Gehäuse.",
+   "desc": "App-Steuerung, Sonar-Hinderniserkennung und intelligente Routenplanung in einem 9-kg-Chassis — für Becken bis 300 m² mit Stufen und Möbeln."
+  },
+  "spr10": {
+   "tagline": "Der Alltagskompakte.",
+   "desc": "Kabelloser 60-W-Reiniger für Becken bis 200 m² und 2,5 m Tiefe. 180-µm-Filtration, 2,5 Stunden Laufzeit und 9,9 kg."
+  },
+  "spr200": {
+   "tagline": "Roboter plus Oberflächenmodul.",
+   "desc": "Ein Boden- und Wandroboter für 300 m², kombiniert mit einer separaten Oberflächeneinheit für treibendes Laub — zwei Geräte, ein Ladesystem."
+  },
+  "spr09": {
+   "tagline": "Kabelpower, 5,5 L Volumen.",
+   "desc": "168 W dauerhafte Kabelleistung mit 5,5-L-Korb und doppelter 180-µm-Filtration für Becken bis 500 m². Keine Sorge um die Laufzeit."
+  },
+  "l-series": {
+   "tagline": "Gewerbeniveau. 5-µm-Filtration.",
+   "desc": "Drei Beckengrößen — 400, 700 und 1.200 m² — mit 90°-Klettern, 5-µm-Filtration und 17–25 m Kabel. Das Arbeitstier für Hotels und öffentliche Becken."
+  },
+  "c36-series": {
+   "tagline": "Bewährte Saugreinigung.",
+   "desc": "Saugreiniger mit Rollbürste und doppeltem breitem Einlass. 300–600 m² Abdeckung, 5–50 µm Filtration und 18–25 m Kabel."
+  },
+  "spr013": {
+   "tagline": "Einstiegsklasse, wirklich nützlich.",
+   "desc": "Ein 3,66-kg-Reiniger für Becken bis 100 m² und 2,5 m Tiefe. 30 W, über 110 Minuten Laufzeit und 200-µm-Korb."
+  },
+  "pl-series": {
+   "tagline": "Solar-Skimmen.",
+   "desc": "Autonome Oberflächenreiniger, die die Wasserlinie abfahren und Laub schlucken, bevor es sinkt. Solarunterstützte Modelle laufen bis zu 12 Stunden."
+  }
+ },
+ "legal": {
+  "metaTitle": "Rechtliches — Datenschutz und Nutzungsbedingungen | KARYLITE",
+  "metaDesc": "Wie KARYLITE personenbezogene Daten dieser Website verarbeitet und welche Nutzungsbedingungen gelten.",
+  "eyebrow": "Rechtliches",
+  "title": "Datenschutz und Bedingungen",
+  "updated": "Stand: September 2026",
+  "privacyTitle": "Datenschutzerklärung",
+  "privacyIntro": "Diese Erklärung beschreibt, welche personenbezogenen Daten wir über diese Website erheben, zu welchem Zweck und wie lange wir sie speichern.",
+  "privacy": [
+   "Von Ihnen übermittelte Daten. Bei einer Anfrage erheben wir Name, E-Mail-Adresse, Unternehmen, Land und Nachricht. Wir nutzen diese Angaben ausschließlich zur Beantwortung Ihrer Anfrage und zur Pflege der sich daraus ergebenden Geschäftsbeziehung.",
+   "Technische Daten. Unser Hosting-Anbieter speichert übliche Server-Logs — IP-Adresse, Browsertyp, aufgerufene Seiten, Zugriffszeit — zu Sicherheits- und Performancezwecken. Eine Erstellung von Werbeprofilen findet nicht statt.",
+   "Cookies und lokaler Speicher. Diese Website setzt keine Werbe- oder Analyse-Cookies. Ihre Sprachauswahl wird lokal im Browser gespeichert und nicht an uns übertragen.",
+   "Weitergabe. Wir verkaufen keine personenbezogenen Daten. Eine Weitergabe erfolgt nur an unseren Hosting-Anbieter und, soweit erforderlich, an den für Ihren Markt zuständigen Distributor.",
+   "Speicherdauer und Ihre Rechte. Anfragen werden bis zu 36 Monate gespeichert. Auskunft, Berichtigung, Löschung, Übertragbarkeit und Widerspruch können Sie unter der unten genannten Adresse geltend machen."
+  ],
+  "termsTitle": "Nutzungsbedingungen",
+  "termsIntro": "Mit dem Aufruf dieser Website akzeptieren Sie die folgenden Bedingungen.",
+  "terms": [
+   "Information, kein Vertrag. Produktbilder, Spezifikationen und Beschreibungen dienen der Information. Modelle, Farben und technische Daten können sich ohne Vorankündigung ändern; verbindlich ist die Spezifikation im unterzeichneten Vertrag oder in der Proformarechnung.",
+   "Geistiges Eigentum. Name, Logo, Fotografien und Texte von KARYLITE sind unser Eigentum oder lizenziert. Eine kommerzielle Vervielfältigung bedarf unserer schriftlichen Zustimmung.",
+   "Zulässige Nutzung. Sie dürfen die Website ansehen, Inhalte unter Quellenangabe zitieren und Links teilen. Automatisiertes Auslesen, Weiterverkauf von Inhalten und die Verwendung in Wettbewerbskatalogen sind untersagt.",
+   "Haftung. Die Website wird ohne Gewähr bereitgestellt. Soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden aus ihrer Nutzung.",
+   "Anwendbares Recht. Es gilt das Recht der Volksrepublik China. Gerichtsstand ist der Sitz unseres Unternehmens."
+  ],
+  "contactTitle": "Verantwortliche Stelle und Kontakt",
+  "contactText": "Bei Fragen zu dieser Erklärung oder Ihren Daten schreiben Sie an {email}."
+ }
+}

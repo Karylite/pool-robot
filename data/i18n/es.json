@@ -1,0 +1,225 @@
+{
+ "meta": {
+  "title": "KARYLITE Pool Robotics — Limpiafondos robóticos para villas, hoteles y piscinas comerciales",
+  "desc": "Limpiafondos robóticos inalámbricos y con cable con escalada de paredes a 90°, filtración de 5 µm y protección IP68. Fabricante OEM/ODM para distribuidores."
+ },
+ "ui": {
+  "navProducts": "Productos",
+  "navTech": "Tecnología",
+  "navGallery": "Galería",
+  "navCompany": "Empresa",
+  "navSupport": "Soporte",
+  "navContact": "Contacto",
+  "ctaExplore": "Ver la gama",
+  "ctaDealer": "Ser distribuidor",
+  "ctaQuote": "Solicitar cotización",
+  "ctaAllProducts": "Todos los productos",
+  "ctaViewProduct": "Ver modelo",
+  "ctaWatch": "Ver el vídeo",
+  "specTitle": "Especificaciones técnicas",
+  "labelModel": "Modelo",
+  "labelCategory": "Categoría",
+  "labelSeries": "Serie",
+  "labelRelated": "Modelos relacionados",
+  "labelBack": "Volver a todos los productos",
+  "labelHome": "Inicio",
+  "specArea": "Superficie de piscina",
+  "specWall": "Escalada de paredes",
+  "specBrushes": "Cepillos de limpieza",
+  "specMotor": "Potencia del motor",
+  "specBin": "Cesta filtrante",
+  "specSpeed": "Velocidad",
+  "specBattery": "Batería",
+  "specCharge": "Tiempo de carga",
+  "specRuntime": "Autonomía",
+  "specFiltration": "Filtración",
+  "specWaterproof": "Estanqueidad",
+  "specDims": "Dimensiones",
+  "specWeight": "Peso",
+  "specModes": "Modos de limpieza",
+  "specPower": "Alimentación",
+  "specWarranty": "Garantía",
+  "specCable": "Longitud del cable",
+  "specDepth": "Profundidad",
+  "formName": "Nombre",
+  "formEmail": "Correo electrónico",
+  "formCompany": "Empresa",
+  "formCountry": "País",
+  "formMessage": "¿Qué necesita?",
+  "formSend": "Enviar consulta",
+  "formNote": "Respondemos en un día laborable. Sus datos nunca se comparten.",
+  "langLabel": "Idioma",
+  "menu": "Menú",
+  "close": "Cerrar",
+  "playFilm": "Reproducir",
+  "footerProducts": "Productos",
+  "footerCompany": "Empresa",
+  "footerSupport": "Soporte",
+  "footerLegal": "Legal",
+  "footerRights": "Todos los derechos reservados.",
+  "footerPrivacy": "Privacidad",
+  "footerTerms": "Términos",
+  "statCoverage": "Cobertura por unidad",
+  "statFiltration": "Filtración más fina",
+  "statClimb": "Escalada vertical",
+  "statWaterproof": "Totalmente sumergible",
+  "catWireless": "Serie inalámbrica",
+  "catCorded": "Serie con cable",
+  "catSuction": "Limpiafondos de aspiración",
+  "catSurface": "Recogedores de superficie",
+  "highlightsTitle": "Destacados"
+ },
+ "home": {
+  "heroEyebrow": "Robótica de piscina totalmente automática",
+  "heroTitle": "Agua cristalina, sin trabajo.",
+  "heroSub": "Limpiafondos diseñados para villas, hoteles y piscinas comerciales: libertad inalámbrica, escalada de paredes a 90° y filtración hasta 5 micras.",
+  "heroCta1": "Ver la gama",
+  "heroCta2": "Ser distribuidor",
+  "introEyebrow": "El estándar KARYLITE",
+  "introTitle": "Hecho para el agua. Pensado para el silencio.",
+  "introText": "Cada robot KARYLITE gira en torno a tres obsesiones: cobertura total, uso sin esfuerzo y agua transparente. La tracción de doble oruga se agarra a las paredes verticales, la transmisión IP68 soporta la inmersión diaria y la cesta superior se vacía en segundos, sin herramientas.",
+  "seriesEyebrow": "La gama",
+  "seriesTitle": "Un sistema para cada piscina.",
+  "seriesSub": "Desde una piscina de jardín de 100 m² hasta una cubeta de hotel de 1.200 m²: elija la plataforma que se ajusta al agua que mantiene.",
+  "catWirelessDesc": "Libertad a batería. Sin cables enredados ni tomas junto a la piscina.",
+  "catCordedDesc": "Autonomía ilimitada y succión de nivel comercial para grandes cubetas.",
+  "catSuctionDesc": "Fiable, sencillo y rentable para piscinas residenciales pequeñas.",
+  "catSurfaceDesc": "Recogedores con apoyo solar que mantienen las hojas fuera del agua.",
+  "techEyebrow": "Ingeniería",
+  "techTitle": "Los detalles que nota cada temporada.",
+  "techSub": "No es marketing de ficha técnica. Son seis sistemas que deciden si un robot es un gadget o una herramienta.",
+  "compareEyebrow": "Comparar",
+  "compareTitle": "Encuentre su modelo.",
+  "compareSub": "Las cifras clave, una al lado de otra. Especificaciones completas en cada ficha.",
+  "galleryEyebrow": "En el agua",
+  "galleryTitle": "Piscinas reales. Ciclos reales.",
+  "gallerySub": "Instalados en villas, hoteles y cubetas comerciales de más de 60 países.",
+  "serviceEyebrow": "Posventa",
+  "serviceTitle": "Un soporte que responde.",
+  "serviceSub": "Vendemos a través de socios y los respaldamos como a nuestro propio equipo.",
+  "oemEyebrow": "OEM / ODM",
+  "oemTitle": "Su marca, nuestra plataforma.",
+  "oemText": "Marca blanca desde 100 unidades: colores de carcasa, logotipo impreso, embalaje de venta, variantes de tensión y enchufe, y manuales en su idioma.",
+  "ctaTitle": "Hablemos de su piscina.",
+  "ctaSub": "Indíquenos el tamaño de la cubeta y su mercado: le recomendaremos la plataforma adecuada y enviaremos la cotización en un día laborable.",
+  "companyEyebrow": "Sobre KARYLITE",
+  "companyTitle": "Un fabricante, no un marketplace.",
+  "companyText": "Desde 2009, KARYLITE diseña iluminación y equipos de tratamiento de agua para distribuidores y profesionales de piscinas. Nuestra línea de robótica se fabrica internamente —motores, sellos, filtración y firmware— para que repuestos, personalización y soporte dependan de una sola empresa.",
+  "companyStat1": "16",
+  "companyStat1Label": "años fabricando",
+  "companyStat2": "60+",
+  "companyStat2Label": "mercados de exportación",
+  "companyStat3": "2 años",
+  "companyStat3Label": "garantía del buque insignia"
+ },
+ "features": {
+  "climb": {
+   "title": "Escalada de paredes a 90°",
+   "desc": "Orugas de goma continua y flotabilidad equilibrada mantienen el robot pegado a paredes verticales y esquinas en ángulo recto, donde los limpiafondos de ruedas se detienen."
+  },
+  "modes": {
+   "title": "Cuatro modos de limpieza",
+   "desc": "Cobertura total, línea de flotación, solo pared o solo fondo. Elija el modo que corresponde a la suciedad de hoy en lugar de lanzar un ciclo completo."
+  },
+  "filtration": {
+   "title": "Filtración de 5 µm",
+   "desc": "Cesta superior de hasta 5 L. Los modelos L-Series filtran hasta 5 micras: polen, algas y arena fina quedan fuera del agua."
+  },
+  "navigation": {
+   "title": "Planificación por sonar",
+   "desc": "Los sensores de sonar cartografían la cubeta y planifican una ruta sin solapamientos, para que el robot cubra el fondo sin vagar ni atascarse."
+  },
+  "app": {
+   "title": "Control desde la orilla",
+   "desc": "Inicie, programe y cambie de modo desde el móvil. Batería, estado del ciclo y avisos de filtro de un vistazo."
+  },
+  "build": {
+   "title": "IP68, temporada tras temporada",
+   "desc": "Motores sellados, carcasas resistentes a los UV y una transmisión de 24 V CC probada, con hasta dos años de garantía en los modelos insignia."
+  }
+ },
+ "service": {
+  "items": [
+   "Soporte técnico gratuito, incluida la guía de instalación.",
+   "Consultas posventa respondidas en 24 horas.",
+   "Packs de imágenes, vídeos y planos de piscina gratuitos.",
+   "Seguimiento logístico en línea de cada envío.",
+   "Visitas periódicas de seguimiento y control de satisfacción."
+  ],
+  "oemItems": [
+   "Color y logotipo propios",
+   "Embalaje listo para venta",
+   "Variantes de tensión y enchufe",
+   "Manuales localizados"
+  ]
+ },
+ "products": {
+  "spr-shark": {
+   "tagline": "El insignia. Paredes a 90°, cesta de 5 L, garantía de 2 años.",
+   "desc": "Nuestra plataforma inalámbrica más capaz: 216 W de potencia, cesta superior de 5 L y 3–4 horas de autonomía con 10.400 mAh. Sube paredes en ángulo recto y escalones sin que las orugas resbalen."
+  },
+  "spr-seal": {
+   "tagline": "Paredes curvas, estructura más ligera.",
+   "desc": "Plataforma inalámbrica de 108 W ajustada a piscinas de pared curva. Cesta de 5 L, 7.800 mAh y un cuerpo esbelto de 8,7 kg fácil de sacar tras el ciclo."
+  },
+  "spr-crab": {
+   "tagline": "Navegación por sonar en un cuerpo compacto.",
+   "desc": "Control por app, detección de obstáculos por sonar y planificación inteligente en un chasis de 9 kg, pensado para piscinas de hasta 300 m² con escalones y mobiliario."
+  },
+  "spr10": {
+   "tagline": "El compacto de cada día.",
+   "desc": "Limpiafondos inalámbrico de 60 W para piscinas de hasta 200 m² y 2,5 m de profundidad. Filtración de 180 µm, 2,5 horas de autonomía y 9,9 kg."
+  },
+  "spr200": {
+   "tagline": "Robot más módulo de superficie.",
+   "desc": "Un robot de fondo y pared para 300 m² junto a una unidad de superficie independiente que recoge las hojas flotantes: dos máquinas, un mismo ecosistema de carga."
+  },
+  "spr09": {
+   "tagline": "Potencia con cable, 5,5 L de capacidad.",
+   "desc": "168 W de potencia continua con cable, cesta de 5,5 L y doble filtración de 180 µm para piscinas de hasta 500 m². Sin preocuparse por la autonomía."
+  },
+  "l-series": {
+   "tagline": "Nivel comercial. Filtración de 5 µm.",
+   "desc": "Tres tamaños de cubeta —400, 700 y 1.200 m²— con escalada a 90°, filtración de 5 µm y 17–25 m de cable. El caballo de batalla de hoteles y piscinas públicas."
+  },
+  "c36-series": {
+   "tagline": "Limpieza por aspiración probada.",
+   "desc": "Limpiafondos de aspiración con cepillo giratorio y doble boca ancha. Cobertura de 300–600 m², filtración de 5–50 µm y 18–25 m de cable."
+  },
+  "spr013": {
+   "tagline": "Nivel de entrada, realmente útil.",
+   "desc": "Un limpiador de 3,66 kg para piscinas de hasta 100 m² y 2,5 m de profundidad. 30 W, más de 110 minutos de autonomía y cesta de 200 µm."
+  },
+  "pl-series": {
+   "tagline": "Barrido solar.",
+   "desc": "Recogedores de superficie autónomos que recorren la línea de flotación y atrapan las hojas antes de que se hundan. Los modelos con apoyo solar funcionan hasta 12 horas."
+  }
+ },
+ "legal": {
+  "metaTitle": "Aviso legal — Privacidad y condiciones | KARYLITE",
+  "metaDesc": "Cómo tratamos los datos personales recogidos en este sitio web y las condiciones aplicables a su uso.",
+  "eyebrow": "Aviso legal",
+  "title": "Privacidad y condiciones",
+  "updated": "Última actualización: septiembre de 2026",
+  "privacyTitle": "Política de privacidad",
+  "privacyIntro": "Esta política explica qué datos personales recogemos a través de este sitio web, con qué finalidad y durante cuánto tiempo los conservamos.",
+  "privacy": [
+   "Datos que nos facilitas. Cuando envías una consulta recogemos tu nombre, correo electrónico, empresa, país y mensaje. Los utilizamos únicamente para responder a tu solicitud y gestionar la relación comercial que se derive de ella.",
+   "Datos técnicos. Nuestro proveedor de alojamiento registra los datos habituales del servidor —dirección IP, navegador, páginas solicitadas y hora de acceso— con fines de seguridad y rendimiento. No los utilizamos para crear perfiles publicitarios.",
+   "Cookies y almacenamiento local. Este sitio no utiliza cookies publicitarias ni de analítica. Tu preferencia de idioma se guarda localmente en el navegador y no se nos transmite.",
+   "Comunicación a terceros. No vendemos datos personales. Solo se comparten con nuestro proveedor de alojamiento y, cuando corresponde, con el distribuidor responsable de tu mercado.",
+   "Conservación y derechos. Las consultas se conservan hasta 36 meses. Puedes solicitar el acceso, la rectificación, la supresión o la portabilidad de tus datos, así como oponerte a su tratamiento, escribiendo a la dirección indicada abajo."
+  ],
+  "termsTitle": "Condiciones de uso",
+  "termsIntro": "Al acceder a este sitio web aceptas las condiciones que figuran a continuación.",
+  "terms": [
+   "Información, no contrato. Las imágenes, especificaciones y descripciones de producto se publican a título informativo. Los modelos, colores y datos técnicos pueden cambiar sin previo aviso; la especificación vinculante es la que figura en el contrato firmado o en la factura proforma.",
+   "Propiedad intelectual. El nombre KARYLITE, su logotipo, las fotografías y los textos son de nuestra propiedad o se utilizan con licencia. Su reproducción comercial requiere nuestro consentimiento por escrito.",
+   "Uso permitido. Puedes consultar el sitio, citar su contenido indicando la fuente y compartir enlaces. No se permite la extracción automatizada, la reventa de contenidos ni su uso en catálogos de la competencia.",
+   "Responsabilidad. El sitio se ofrece tal cual. En la medida permitida por la ley, excluimos la responsabilidad por daños indirectos o consecuentes derivados de su uso.",
+   "Legislación aplicable. Estas condiciones se rigen por las leyes de la República Popular China. Las controversias se someterán a los tribunales de nuestro domicilio social."
+  ],
+  "contactTitle": "Responsable y contacto",
+  "contactText": "Para cualquier consulta sobre esta política o tus datos, escribe a {email}."
+ }
+}

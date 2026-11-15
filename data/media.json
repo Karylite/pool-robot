@@ -1,0 +1,254 @@
+[
+ {
+  "path": "assets/img/products/c36-lineup.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/c36-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/c36-white-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/hero-lineup.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/l-series-closeup.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/l-series-control.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/l-series-top.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/l-series-underwater.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/l350-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/lifestyle-resort.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/lifestyle-villa.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/og-cover.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/pl01-pool.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/pl01-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/pl02-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/pl03-solar.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/pool-floor-wide.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-crab-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-crab-underwater.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-crab-water.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-seal-edge.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-seal-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-seal-underwater.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-seal-wall.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-shark-debris.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-shark-poolside.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-shark-steps.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-shark-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr-shark-underwater.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr013-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr09-pool.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr09-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr10-debris.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr10-pool.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr10-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr200-module.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr200-surface.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr70-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/spr90-studio.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/products/wired-lineup.jpg",
+  "group": "products"
+ },
+ {
+  "path": "assets/img/renders/app-control.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/renders/filter-basket.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/renders/navigation.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/renders/track-closeup.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/renders/underwater-hero.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/renders/waterline.jpg",
+  "group": "renders"
+ },
+ {
+  "path": "assets/img/brand/apple-touch-icon.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-128.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-16.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-192.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-32.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-48.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-512.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/icon-64.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/logo-mark-green.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/logo-mark-white.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/logo-mark.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/logo-word.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/logo.png",
+  "group": "brand"
+ },
+ {
+  "path": "assets/img/brand/og-cover.jpg",
+  "group": "brand"
+ },
+ {
+  "path": "assets/video/hero.mp4",
+  "group": "video"
+ },
+ {
+  "path": "assets/video/wall-climb.mp4",
+  "group": "video"
+ },
+ {
+  "path": "assets/video/waterline.mp4",
+  "group": "video"
+ }
+]
